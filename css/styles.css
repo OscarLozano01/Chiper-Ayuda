@@ -1,6 +1,8 @@
 body {
   width: 1280px;
   height: 901px;
+  max-width:1280px;   
+  min-width: 360px;
   background-color: #f9f9f9;
   font-family: 'Montserrat', sans-serif;
 }
@@ -8,12 +10,16 @@ body {
 .Shape {
   width: 1280px;
   height: 863px;
+  max-width:1280px;   
+  min-width: 360px;
   margin-top: 10px;
 }
 
 base {
   width: 1280px;
   height: 140px;
+  max-width:1280px;   
+  min-width: 360px;
   opacity: 0;
   background-color: #ff0136;
 }
