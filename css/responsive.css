@@ -66,7 +66,7 @@ body {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 686px) {
   .contenedor .contenido {
     grid-column: 1 / -1;
   }
@@ -84,7 +84,7 @@ body {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 686px) {
 
   .contenedor .dimension2 {
     display: inline-block;
@@ -116,8 +116,8 @@ body {
     display: inline-block;
     position: absolute;
     top: 0px;
-    width: 350px;
-    height: 570px;
+    width: 300px;
+    height: 500px;
   }
 
   .contenedor .derec {
@@ -201,9 +201,9 @@ body {
 
   .contenedor .slogan {
     position: relative;
-    width: 290px;
+    width: 310px;
     height: 28px;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 400;
     font-stretch: normal;
     font-style: normal;
@@ -333,8 +333,8 @@ body {
     border-width: 2px 2px 2px;
     border-style: dotted;
     border-radius: 100px;
-    margin-top: -300px;
-    left: 650px;
+    margin-top: -340px;
+    left: 600px;
   }
 
   .contenedor .Oval {
