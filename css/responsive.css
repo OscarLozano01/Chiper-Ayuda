@@ -276,7 +276,7 @@ body {
   }
 
   .contenedor .Aprende {
-    width: 115px;
+    width: 110px;
     height: 22px;
     font-size: 12px;
     font-weight: 900;
@@ -287,7 +287,7 @@ body {
     text-align: center;
     color: rgba(38, 38, 38, 0.8);
     text-decoration: none;
-    margin-top: 10px;
+    margin-top: 8px;
   }
 
   .contenedor .comunidad {
@@ -423,7 +423,7 @@ body {
     background-color: #ffffff;
     position: absolute;
     top: 1500px;
-    left: 60px;
+    left: 30px;
   }
 
   .contenedor .foto{
@@ -432,7 +432,7 @@ body {
     object-fit: contain;
     position: absolute;
     top: 1434px;
-    left: 140px;
+    left: 110px;
   }
 
   .contenedor .cuadr{
@@ -443,7 +443,7 @@ body {
     background-color: #ffffff;
     position: absolute;
     top: 1500px;
-    left: 410px;
+    left: 358px;
   }
 
   .contenedor .fot{
@@ -452,7 +452,7 @@ body {
     object-fit: contain;
     position: absolute;
     top: 1434px;
-    left: 490px;
+    left: 438px;
   }
 
   .contenedor .cuad{
@@ -463,7 +463,7 @@ body {
     background-color: #ffffff;
     position: absolute;
     top: 1900px;
-    left: 60px;
+    left: 30px;
   }
 
   .contenedor .fo{
@@ -472,7 +472,7 @@ body {
     object-fit: contain;
     position: absolute;
     top: 1834px;
-    left: 140px;
+    left: 110px;
   }
 
   .contenedor .segundoc{
@@ -483,7 +483,7 @@ body {
     background-color: #ffffff;
     position: absolute;
     top: 1900px;
-    left: 410px;
+    left: 358px;
   }
 
   .contenedor .fotuu{
@@ -492,7 +492,7 @@ body {
     object-fit: contain;
     position: absolute;
     top: 1834px;
-    left: 490px;
+    left: 438px;
   }
 
   .contenedor .segundo{
@@ -503,7 +503,7 @@ body {
     background-color: #ffffff;
     position: absolute;
     top: 2300px;
-    left: 60px;
+    left: 30px;
   }
 
   .contenedor .fotu{
@@ -512,7 +512,7 @@ body {
     object-fit: contain;
     position: absolute;
     top: 2234px;
-    left: 140px;
+    left: 110px;
   }
 
   .contenedor .segund{
@@ -523,7 +523,7 @@ body {
     background-color: #ffffff;
     position: absolute;
     top: 2300px;
-    left: 410px;
+    left: 358px;
   }
 
   .contenedor .foty{
@@ -532,7 +532,7 @@ body {
     object-fit: contain;
     position: absolute;
     top: 2234px;
-    left: 490px;
+    left: 438px;
   }
 
 
