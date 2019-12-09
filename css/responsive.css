@@ -535,6 +535,232 @@ body {
     left: 438px;
   }
 
+  .contenedor .util{
+    width: 600px;
+    height: 340px;
+    border-radius: 0px;
+    background-color: #f2f2f2;
+    position: absolute;
+    top: 2650px;
+    left: 0px;
+  }
+
+  .contenedor .imgagi{
+    float: right;
+  }
+
+  .contenedor .Ayuda-Alex{
+    width: 250px;
+    height: 400px;
+    left: 900px;
+    position: absolute;
+    top: 2610px;
+    left: 436px;
+  }
+
+  .contenedor .pregunts{
+    width: 500px;
+    height: 44px;
+    font-size: 30px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.1;
+    letter-spacing: -2px;
+    color: #ff0136;
+    position: absolute;
+    top: 2680px;
+    left: 30px;
+  }
+
+  .contenedor .comen{
+    width: 650px;
+    height: 24px;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    color: rgba(38, 38, 38, 0.8);
+    margin-top: 10px;
+  }
+
+  .contenedor .si{
+    width: 107px;
+    height: 43px;
+    border-radius: 6px;
+    border: solid 1.4px #03cd83;
+    background-color: #ffffff;
+    text-align: center;
+    display: inline-block;
+  }
+
+  .contenedor .no{
+    width: 107px;
+    height: 43px;
+    border-radius: 6px;
+    border: solid 1.4px #03cd83;
+    background-color: #ffffff;
+    display: inline-block;
+    text-align: center;
+    top: 0px;  
+  }
+
+  .contenedor .sip{
+    width: 14px;
+    height: 20px;
+    font-size: 15px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #03cd83;
+    vertical-align: middle;
+  }
+
+  .contenedor .bjar{
+    margin-top: 0px;
+    text-align: center;
+  }
+
+  .contenedor .llamnos{
+    width: 247px;
+    height: 110px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.08);
+    background-color: #ffffff;
+    text-align: left;
+    border-radius: 13px;
+    position: absolute;
+    top: 120px;
+  }
+
+  .contenedor .lmnos{
+    width: 393px;
+    height: 168px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.08);
+    background-color: #ffffff;
+    text-align: left;
+    border-radius: 13px;
+    position: absolute;
+    left: 0px;
+    top: 120px;
+  }
+
+  .contenedor .messagen{    
+      width: 500px;
+      height: 57px;
+      font-size: 11px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: rgba(38, 38, 38, 0.6);
+      position: absolute;
+      left: 15px;
+      top: 20px;
+      text-align: left;    
+  }
+
+  .contenedor .mssa{
+    position: absolute;
+    top: 0px;
+  }
+
+  .contenedor .prim{
+    width: 500px;
+    height: 57px;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgba(38, 38, 38, 0.6);
+    position: absolute;
+    left: 15px;
+    top: 50px;
+    text-align: left;
+  }
+
+  .contenedor .prime{
+    width: 500px;
+    height: 57px;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgba(38, 38, 38, 0.6);
+    position: absolute;
+    left: 15px;
+    top: 75px;
+    text-align: left;
+  }
+
+  .contenedor .primer{
+    width: 500px;
+    height: 57px;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgba(38, 38, 38, 0.6);
+    position: absolute;
+    left: 15px;
+    top: 100px;
+    text-align: left;
+  }
+
+  .contenedor .primera{
+    width: 500px;
+    height: 57px;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgba(38, 38, 38, 0.6);
+    position: absolute;
+    left: 15px;
+    top: 125px;
+    text-align: left;
+  }
+
+  .contenedor .enviar{
+    width: 107px;
+    height: 43px;
+    border-radius: 6px;
+    background-color: #fa0236;
+    margin-top: 195px;
+    left: -200px;
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    top: -127px;
+  }
+
+  .contenedor .envi{
+    width: 47px;
+    height: 20px;
+    font-size: 15px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    vertical-align: middle;
+  }
+
 
 }
 
@@ -1214,7 +1440,7 @@ base {
 
 .util {
   width: 1220px;
-  height: 419px;
+  height: 519px;
   border-radius: 0px;
   background-color: #f2f2f2;
   position: absolute;
@@ -1229,3 +1455,407 @@ base {
   top: 2710px;
   left: 1015px;
 }
+
+
+.imgagi {
+  float: right;
+}
+
+.pregunts {
+  width: 500px;
+  height: 44px;
+  font-size: 40px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.1;
+  letter-spacing: -2px;
+  color: #ff0136;
+  position: absolute;
+  top: 2810px;
+  left: 135px;
+}
+
+.comen {
+  width: 650px;
+  height: 24px;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  color: rgba(38, 38, 38, 0.8);
+}
+
+.si {
+  width: 120px;
+  height: 48px;
+  border-radius: 6px;
+  border: solid 1.4px #03cd83;
+  background-color: #ffffff;
+  text-align: center;
+  display: inline-block;
+}
+
+.no {
+  width: 120px;
+  height: 48px;
+  border-radius: 6px;
+  border: solid 1.4px #03cd83;
+  background-color: #ffffff;
+  display: inline-block;
+  text-align: center;
+  top: 0px;  
+}
+
+.sip {
+  width: 14px;
+  height: 20px;
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: center;
+  color: #03cd83;
+  vertical-align: middle;
+}
+
+.enviar {
+  width: 120px;
+  height: 48px;
+  border-radius: 6px;
+  background-color: #fa0236;
+  margin-top: 100px;
+  margin-left: 430px;
+  position: absolute;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.envi {
+  width: 47px;
+  height: 20px;
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+}
+
+.footer {
+  width: 1349px;
+  height: 270px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 3240px;
+}
+
+.log {
+  position: absolute;
+  top: 30px;
+  left: 105px;
+}
+
+.help {
+  width: 325px;
+  height: 57px;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: rgba(38, 38, 38, 0.6);
+  position: absolute;
+  left: 25px;
+}
+
+.-Chiper-Ayuda {
+  width: 325px;
+  height: 19px;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: rgba(38, 38, 38, 0.6);
+  position: absolute;
+  top: 170px;
+  left: 25px;
+}
+
+.menu li {
+  display: inline-block;
+
+}
+
+.menu {
+  float: right;
+  margin-top: 70px;
+
+}
+
+.menu a {
+  padding: 70px;
+}
+
+.footer a {
+  right: 300px;
+}
+
+.Links {
+  width: 47px;
+  height: 27px;
+  font-size: 17px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fa0236;
+}
+
+.Sobre-nosotros {
+  width: 110px;
+  height: 22px;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: rgba(38, 38, 38, 0.8);
+}
+
+#input-search {
+  height: 40px;
+  font-size: 20px;
+  text-indent: 10px;
+}
+
+.content-search {
+  width: 100%;
+  top: 60px;
+  left: 0;
+  display: none;
+}
+
+.content-table {
+  width: 450px;
+  max-height: 200px;
+  height: auto;
+  background: rgba(0, 0, 0, 0.3);
+  margin-left: 10px;
+  overflow-y: visible;
+  overflow-x: hidden;
+  border-radius: 3px;
+}
+
+.content-table table {
+  width: 100%;
+}
+
+tbody tr td a {
+  display: block;
+  padding: 3px;
+  color: white;
+  text-decoration: none;
+}
+
+tbody tr td a:hover {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+}
+
+#table_length,
+#table_filter,
+#table_info,
+#table_paginate {
+  display: none;
+}
+
+.comentar {
+  width: 260px;
+  height: 57px;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: oblique;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: rgba(19, 18, 18, 0.6);
+}
+
+.bjar {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.txtd {
+  font-size: 16px;
+  font-weight: 900;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.llamnos {
+  width: 247px;
+  height: 110px;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.08);
+  background-color: #ffffff;
+  text-align: left;
+  border-radius: 13px;
+  position: absolute;
+  top: 150px;
+
+}
+
+.message {
+  width: 230px;
+  height: 57px;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: rgba(38, 38, 38, 0.6);
+  position: absolute;
+  left: 15px;
+  top: 20px;
+  text-align: left;
+}
+
+.messag {
+  width: 168px;
+  height: 57px;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: black;
+  position: absolute;
+}
+
+.messa {
+  position: absolute;
+  top: 30px;
+}
+
+.mssa {
+  position: absolute;
+  top: 0px;
+}
+
+.emogi {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 0px;
+  margin-top: -8px;
+}
+
+.lmnos {
+  width: 505px;
+  height: 168px;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.08);
+  background-color: #ffffff;
+  text-align: left;
+  border-radius: 13px;
+  position: absolute;
+  left: 0px;
+  top: 150px;
+}
+
+.messagen {
+  width: 500px;
+  height: 57px;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: rgba(38, 38, 38, 0.6);
+  position: absolute;
+  left: 15px;
+  top: 20px;
+  text-align: left;
+}
+
+.prim {
+  width: 500px;
+  height: 57px;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: rgba(38, 38, 38, 0.6);
+  position: absolute;
+  left: 15px;
+  top: 50px;
+  text-align: left;
+}
+
+.prime {
+  width: 500px;
+  height: 57px;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: rgba(38, 38, 38, 0.6);
+  position: absolute;
+  left: 15px;
+  top: 75px;
+  text-align: left;
+}
+
+.primer {
+  width: 500px;
+  height: 57px;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: rgba(38, 38, 38, 0.6);
+  position: absolute;
+  left: 15px;
+  top: 100px;
+  text-align: left;
+}
+
+.primera {
+  width: 500px;
+  height: 57px;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: rgba(38, 38, 38, 0.6);
+  position: absolute;
+  left: 15px;
+  top: 125px;
+  text-align: left;
+}
+
+
