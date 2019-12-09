@@ -1,0 +1,319 @@
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+    }
+  a { text-decoration: none;
+  color: #ff6873;}
+  
+  .transition,  ul li i:before, ul li i:after, .contAcordeon {
+    transition: all 0.25s ease-in-out;
+  }
+  
+  .flipIn, h1, ul li {
+    animation: flipdown 0.5s ease both;
+  }
+  
+  .no-select, h2 {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  html {
+    width: 100%;
+    height: 100%;
+    max-width:1280px;   
+    min-width: 360px;
+    perspective: 900;
+    overflow-y: scroll; 
+          
+  }
+  
+  #accesos {    
+    display: inline-block;
+    position: relative;        
+    transform: translate(-50%, 0);    
+    background-color: #fefffa;    
+    padding: 0.3em;    
+    max-width:1280px;   
+    min-width: 360px;
+    box-shadow: 0 10px 0 0 #ff0136 inset; 
+    border: solid 1px #e6e6e6;
+    border-radius: 6px;
+    position: absolute;
+    width: 563px;    
+    left: 285px;
+  }
+  
+  @media (max-width: 550px) {
+    #accesos {
+      box-sizing: border-box;
+      transform: translate(0, 0);      
+      max-width: 100%;
+      min-height: 100%;
+      margin: 0;
+      left: 0;
+    }  
+  }
+
+  @media (min-width: 550px){
+    
+    #accesos{
+      display: inline-block;
+      position: relative;        
+      transform: translate(-50%, 0);    
+      background-color: #fefffa;    
+      padding: 0.3em;    
+      max-width:1280px;   
+      min-width: 360px;
+      box-shadow: 0 10px 0 0 #ff0136 inset; 
+      border: solid 1px #e6e6e6;
+      border-radius: 6px;
+      position: absolute;
+      width: 720px;    
+      left: 290px;
+    }
+
+  }
+  
+  h1, h2, p {
+    color: #2f2f2f;    
+  }
+  
+  h1 {
+    font-size: 17px;
+    line-height: 1.5em;
+    font-weight: 900;
+    letter-spacing: 1px;
+    display: block;
+    background-color: #fefffa;
+    color: #2f2f2f;
+    margin: 0;
+    cursor: pointer;
+    padding: .6em;
+  }
+  
+  h2 {
+    font-size: 16px;
+    line-height: 1.5em;
+    font-weight: 900;
+    letter-spacing: 1px;
+    display: block;
+    background-color: #fefffa;
+    color: #2f2f2f;
+    margin: 0;
+    cursor: pointer;
+    padding: .6em;
+  }
+
+  p{
+    color: black;
+    font-size: 15px;
+    text-align: left;      
+  }
+  
+  .contAcordeon {
+      color: rgba(48, 69, 92, 0.8);
+      line-height: 1.5em;
+      letter-spacing: .05em;
+      position: relative;
+      overflow: hidden;
+      max-height: 200em;
+      opacity: 1;
+      transform: translate(0, 0);      
+      z-index: 2;            
+      width: 100%;
+      
+  }
+  
+  #accesos ul {
+    list-style: none;
+    perspective: 900;
+    padding: 0;
+    margin: 0;
+  }
+  #accesos ul li {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 4px;
+    padding-top: 0;
+    border-top: 1px dotted #dce7eb;
+    
+  }
+  #accesos ul li:nth-of-type(1) {
+    animation-delay: 0.5s;
+  }
+  #accesos ul li:nth-of-type(2) {
+    animation-delay: 0.75s;
+  }
+  #accesos ul li:nth-of-type(3) {
+    animation-delay: 1s;
+  }
+  #accesos ul li:last-of-type {
+    animation-delay: 1.25s;
+    padding-bottom: 0;
+  }
+  #accesos ul li i.chevron {
+      position: absolute;
+      transform: translate(-18px, 0);
+      margin-top: 18px;
+      right: 10px;
+  }
+  #accesos ul li i.chevron:before, #accesos ul li i.chevron:after {
+    content: "";
+    position: absolute;
+    background-color: #ff0136;
+    width: 3px;
+    height: 9px;
+  }
+  #accesos ul li i:before {
+    transform: translate(-2px, 0) rotate(45deg);
+  }
+  #accesos ul li i.chevron:after {
+    transform: translate(2px, 0) rotate(-45deg);
+  }
+  #accesos ul li input[type=checkbox] {
+    position: absolute;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    background-color:#f1f1f1;
+  }
+  #accesos ul li input[type=checkbox] h2 i {
+    background-color:#f1f1f1;
+    color: #f1f1f1;
+  }
+  #accesos ul li input[type=checkbox]:checked ~ div {
+    margin-top: 0;
+    max-height: 0;
+    opacity: 0;
+    transform: translate(0, 50%);
+    
+  }
+  #accesos ul li input[type=checkbox]:checked ~ i:before {
+    transform: translate(2px, 0) rotate(45deg);
+  }
+  #accesos ul li input[type=checkbox]:checked ~ i:after {
+    transform: translate(-2px, 0) rotate(-45deg);
+  }
+  
+  #accesos input[type=checkbox] ~ h2 {
+    background-color: #f1f1f1;
+  }
+  #accesos input[type=checkbox]:checked ~ h2 {
+    background-color: white;
+  }
+  
+  #accesos h2 > i {
+      width: 50px;
+      height: 30px;
+      display: inline-block;
+      margin-right: 1em;
+      margin-top: 10px;
+      text-align: center;      
+  }
+  
+  #accesos h2 img {
+      width: 40px;
+      height: 40px;
+      margin-right: 1em;
+      margin-top: 0px;
+      float: right;
+  }
+  @keyframes flipdown {
+    0% {
+      opacity: 0;
+      transform-origin: top center;
+      transform: rotateX(-90deg);
+    }
+    5% {
+      opacity: 1;
+    }
+    80% {
+      transform: rotateX(8deg);
+    }
+    83% {
+      transform: rotateX(6deg);
+    }
+    92% {
+      transform: rotateX(-3deg);
+    }
+    100% {
+      transform-origin: top center;
+      transform: rotateX(0deg);
+    }
+  }
+      
+  #accesos .sino {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    border: 1px solid #f1f1f1;
+    padding: .5em;
+    max-width: 45em;
+  }
+  #accesos .sino > div { flex: 1 1 300px; padding: .5em}
+  #accesos .sino .tit {
+    font-size: 2em;
+        margin-bottom: 0.5em;
+  }
+  #accesos .sino .tit i {
+  font-size: 0.6em;
+      margin-left: 0.5em;
+      width: 30px;
+      height: 30px;
+      padding: 5px;
+  }
+  #accesos .sino .no .tit {  color: #ff6772;}
+  #accesos .sino .si .tit {  color: #8bc349;}
+  
+  #accesos .sino .texto span {
+    display: block;
+  }
+  #accesos .sino .texto span span { font-weight: bold; }
+  
+  
+  
+  #accesos .callout {
+      border-left: 5px solid coral;
+      padding: 1.5em;
+      margin: 0em;
+  }
+  #accesos .callout h5 {
+    font-size: 1.5em;
+    margin-bottom: .5em;
+        margin-top: 0;
+  }
+  #accesos .destacaMucho {
+      /* background-color: #ff7e50; */
+      margin: 1em 0;
+      padding: 1em;
+      /* color: white; */
+      border-left: 5px solid #8BC34A;
+  }
+  
+  
+  .autopista, .calle, .referencia, .alerta {
+      padding: 0.2em 0.4em;
+      font-size: 0.8em;  
+      color: white;
+      border-radius: 2px;
+  }
+  
+  .autopista {    background-color: #2091F3; }
+  .calle {    background-color: #2091F3; }
+  .referencia {    background-color: #4CAF50; }
+  .alerta {     background-color: coral; }
