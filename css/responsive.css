@@ -60,9 +60,7 @@ base {
 }
 
 .logo {
-
   float: left;
-
 }
 
 .Group-7 {
@@ -1937,14 +1935,18 @@ tbody tr td a:hover {
     display: inline-block;
     position: absolute;
     top: 0px;
-    width: 300px;
-    height: 500px;
+    width: 360px;
+    height: 600px;
+  }
+
+  .contenedor .logo{
+    position: absolute;    
   }
 
   .contenedor .derec {
     position: relative;
-    margin-top: 0px;
-    right: 0px;
+    margin-top: 10px;
+    right: 30px;
   }
 
   .contenedor .text {
@@ -2014,43 +2016,44 @@ tbody tr td a:hover {
     position: relative;
     width: 550px;
     height: 97px;
-    font-size: 40px;
+    font-size: 45px;
     line-height: 1.07;
     letter-spacing: -3px;
-    left: 0px;
+    left: 30px;
+    margin-top: 20px;
   }
 
   .contenedor .slogan {
     position: relative;
-    width: 310px;
+    width: 480px;
     height: 28px;
-    font-size: 17px;
+    font-size: 19px;
     font-weight: 400;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.2;
     color: rgba(38, 38, 38, 0.8);
     top: 0px;
-    left: 0px;
+    left: 30px;
   }
 
   .contenedor .buscador {
     position: relative;
-    width: 340px;
-    height: 45px;
+    width: 470px;
+    height: 53px;
     border-radius: 6px;
     box-shadow: 0 12px 20px 6px rgba(0, 0, 0, 0.04);
     background-color: #ffffff;
     top: 0px;
-    left: 0px;
+    left: 30px;
     line-height: 2;
   }
 
   .contenedor .Group {
     position: absolute;
     margin: 5px;
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
     margin-top: 14px;
     object-fit: contain;
     left: 5px;
@@ -2061,15 +2064,15 @@ tbody tr td a:hover {
     background-color: #ffffff;
     border: 0;
     left: 0px;
-    top: 10px;
+    top: 15px;
   }
 
   .contenedor .duda {
     position: relative;
-    width: 310px;
+    width: 430px;
     height: 20px;
     opacity: 0.4;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 600;
     font-stretch: normal;
     font-style: normal;
@@ -2080,17 +2083,18 @@ tbody tr td a:hover {
   .contenedor .aprende {
     position: absolute;
     display: inline-block;
-    width: 110px;
-    height: 100px;
+    width: 130px;
+    height: 120px;
     border-radius: 6px;
     box-shadow: 0 14px 20px 0 rgba(0, 0, 0, 0.04);
     background-color: #ffffff;
     margin-top: 10px;
+    left: 60px;
   }
 
   .contenedor .graduation {
-    width: 38px;
-    height: 37px;
+    width: 48px;
+    height: 47px;
     object-fit: contain;
     display: block;
     margin: auto;
@@ -2099,7 +2103,7 @@ tbody tr td a:hover {
   .contenedor .Aprende {
     width: 110px;
     height: 22px;
-    font-size: 12px;
+    font-size: 17px;
     font-weight: 900;
     font-stretch: normal;
     font-style: normal;
@@ -2114,18 +2118,19 @@ tbody tr td a:hover {
   .contenedor .comunidad {
     position: absolute;
     display: inline-block;
-    width: 110px;
-    height: 100px;
+    width: 130px;
+    height: 120px;
     border-radius: 6px;
     box-shadow: 0 14px 20px 0 rgba(0, 0, 0, 0.04);
     background-color: #ffffff;
     margin: 130px;
     margin-top: 10px;
+    left: 90px;
   }
 
   .contenedor .conversation-1 {
-    width: 38px;
-    height: 37px;
+    width: 48px;
+    height: 47px;
     object-fit: contain;
     display: block;
     margin: auto;
@@ -2134,7 +2139,7 @@ tbody tr td a:hover {
   .contenedor .Comunidad {
     width: 110px;
     height: 22px;
-    font-size: 12px;
+    font-size: 17px;
     font-weight: 900;
     font-stretch: normal;
     font-style: normal;
@@ -2143,7 +2148,9 @@ tbody tr td a:hover {
     text-align: center;
     color: rgba(38, 38, 38, 0.8);
     text-decoration: none;
-    margin-top: 8px;
+    margin-top: 3px;
+    margin-left: -11px;
+    
   }
 
   .contenedor .oval {    
@@ -2154,8 +2161,8 @@ tbody tr td a:hover {
     border-width: 3px 3px 3px;
     border-style: dotted;
     border-radius: 100px;
-    margin-top: 80px;
-    left: 30px;
+    margin-top: 160px;
+    left: 60px;
   }
 
   .contenedor .Oval {    
@@ -2194,7 +2201,7 @@ tbody tr td a:hover {
   .contenedor .preguntas{
     width: 372px;
     height: 44px;
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 900;
     font-stretch: normal;
     font-style: normal;
@@ -2202,8 +2209,8 @@ tbody tr td a:hover {
     letter-spacing: -2px;
     color: #ff0136;
     position: absolute;
-    top: 500px;
-    left: 24px;
+    top: 550px;
+    left: 60px;
   }
 
   .contenedor .Rectangle{
@@ -2212,8 +2219,8 @@ tbody tr td a:hover {
     background-color: #ffffff;
     position: absolute;
     display: grid;
-    top: 580px;
-    left: 95px;
+    top: 650px;
+    left: 245px;
   }
 
   .contenedor .tablet {
@@ -2226,14 +2233,14 @@ tbody tr td a:hover {
   }
 
   .contenedor .titu2{
-    width: 350px;
+    width: 600px;
     height: 128px;
-    font-size: 40px;
+    font-size: 45px;
     line-height: 1.07;
     letter-spacing: -3px;
     position: absolute;
-    top: 1100px;
-    left: 24px;    
+    top: 1180px;
+    left: 60px;    
   }
 
   .contenedor .cuadro{
@@ -2244,7 +2251,7 @@ tbody tr td a:hover {
     background-color: #ffffff;
     position: absolute;
     top: 1500px;
-    left: 30px;
+    left: 15px;
   }
 
   .contenedor .foto{
@@ -2253,7 +2260,7 @@ tbody tr td a:hover {
     object-fit: contain;
     position: absolute;
     top: 1434px;
-    left: 110px;
+    left: 95px;
   }
 
   .contenedor .cuadr{
@@ -2264,7 +2271,7 @@ tbody tr td a:hover {
     background-color: #ffffff;
     position: absolute;
     top: 1500px;
-    left: 358px;
+    left: 348px;
   }
 
   .contenedor .fot{
@@ -2273,7 +2280,7 @@ tbody tr td a:hover {
     object-fit: contain;
     position: absolute;
     top: 1434px;
-    left: 438px;
+    left: 428px;
   }
 
   .contenedor .cuad{
@@ -2284,7 +2291,7 @@ tbody tr td a:hover {
     background-color: #ffffff;
     position: absolute;
     top: 1900px;
-    left: 30px;
+    left: 15px;
   }
 
   .contenedor .fo{
@@ -2293,7 +2300,7 @@ tbody tr td a:hover {
     object-fit: contain;
     position: absolute;
     top: 1834px;
-    left: 110px;
+    left: 95px;
   }
 
   .contenedor .segundoc{
@@ -2304,7 +2311,7 @@ tbody tr td a:hover {
     background-color: #ffffff;
     position: absolute;
     top: 1900px;
-    left: 358px;
+    left: 348px;
   }
 
   .contenedor .fotuu{
@@ -2313,7 +2320,7 @@ tbody tr td a:hover {
     object-fit: contain;
     position: absolute;
     top: 1834px;
-    left: 438px;
+    left: 428px;
   }
 
   .contenedor .segundo{
@@ -2323,8 +2330,8 @@ tbody tr td a:hover {
     box-shadow: 0 14px 20px 0 rgba(0, 0, 0, 0.04);
     background-color: #ffffff;
     position: absolute;
-    top: 2300px;
-    left: 30px;
+    top: 1900px;
+    left: 680px;
   }
 
   .contenedor .fotu{
@@ -2332,8 +2339,8 @@ tbody tr td a:hover {
     height: 136px;
     object-fit: contain;
     position: absolute;
-    top: 2234px;
-    left: 110px;
+    top: 1834px;
+    left: 756px;
   }
 
   .contenedor .segund{
@@ -2343,8 +2350,8 @@ tbody tr td a:hover {
     box-shadow: 0 14px 20px 0 rgba(0, 0, 0, 0.04);
     background-color: #ffffff;
     position: absolute;
-    top: 2300px;
-    left: 358px;
+    top: 1500px;
+    left: 680px;
   }
 
   .contenedor .foty{
@@ -2352,22 +2359,23 @@ tbody tr td a:hover {
     height: 136px;
     object-fit: contain;
     position: absolute;
-    top: 2234px;
-    left: 438px;
+    top: 1434px;
+    left: 756px;
   }
 
   .contenedor .util{
-    width: 590px;
+    width: 85%;
     height: 340px;
     border-radius: 0px;
     background-color: #f2f2f2;
     position: absolute;
-    top: 2650px;
+    top: 2260px;
     left: 0px;
   }
 
   .contenedor .imgagi{
-    float: right;
+    position: absolute;
+    left: 306px;    
   }
 
   .contenedor .Ayuda-Alex{
@@ -2375,14 +2383,14 @@ tbody tr td a:hover {
     height: 400px;
     left: 900px;
     position: absolute;
-    top: 2610px;
+    top: 430px;
     left: 436px;
   }
 
   .contenedor .pregunts{
     width: 500px;
     height: 44px;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 900;
     font-stretch: normal;
     font-style: normal;
@@ -2390,14 +2398,14 @@ tbody tr td a:hover {
     letter-spacing: -2px;
     color: #ff0136;
     position: absolute;
-    top: 2680px;
+    top: 2280px;
     left: 30px;
   }
 
   .contenedor .comen{
     width: 650px;
     height: 24px;
-    font-size: 14px;
+    font-size: 17px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -2408,8 +2416,8 @@ tbody tr td a:hover {
   }
 
   .contenedor .si{
-    width: 107px;
-    height: 43px;
+    width: 110px;
+    height: 46px;
     border-radius: 6px;
     border: solid 1.4px #03cd83;
     background-color: #ffffff;
@@ -2418,8 +2426,8 @@ tbody tr td a:hover {
   }
 
   .contenedor .no{
-    width: 107px;
-    height: 43px;
+    width: 110px;
+    height: 46px;
     border-radius: 6px;
     border: solid 1.4px #03cd83;
     background-color: #ffffff;
@@ -2431,7 +2439,7 @@ tbody tr td a:hover {
   .contenedor .sip{
     width: 14px;
     height: 20px;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 900;
     font-stretch: normal;
     font-style: normal;
@@ -2440,6 +2448,8 @@ tbody tr td a:hover {
     text-align: center;
     color: #03cd83;
     vertical-align: middle;
+    top: 10px;
+    
   }
 
   .contenedor .bjar{
