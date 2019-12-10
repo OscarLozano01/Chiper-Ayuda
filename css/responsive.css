@@ -1885,7 +1885,7 @@ tbody tr td a:hover {
 }
 
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1096px) {
   .contenedor .contenido {
     grid-column: 1 / -1;
   }
@@ -1903,7 +1903,7 @@ tbody tr td a:hover {
   }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1096px) {
 
   .contenedor .dimension2 {
     display: inline-block;
@@ -2039,7 +2039,7 @@ tbody tr td a:hover {
 
   .contenedor .buscador {
     position: relative;
-    width: 470px;
+    width: 510px;
     height: 53px;
     border-radius: 6px;
     box-shadow: 0 12px 20px 6px rgba(0, 0, 0, 0.04);
@@ -2069,7 +2069,7 @@ tbody tr td a:hover {
 
   .contenedor .duda {
     position: relative;
-    width: 430px;
+    width: 470px;
     height: 20px;
     opacity: 0.4;
     font-size: 18px;
@@ -2220,7 +2220,7 @@ tbody tr td a:hover {
     position: absolute;
     display: grid;
     top: 650px;
-    left: 245px;
+    left: 295px;
   }
 
   .contenedor .tablet {
@@ -2251,7 +2251,7 @@ tbody tr td a:hover {
     background-color: #ffffff;
     position: absolute;
     top: 1500px;
-    left: 15px;
+    left: 48px;
   }
 
   .contenedor .foto{
@@ -2260,7 +2260,7 @@ tbody tr td a:hover {
     object-fit: contain;
     position: absolute;
     top: 1434px;
-    left: 95px;
+    left: 128px;
   }
 
   .contenedor .cuadr{
@@ -2271,7 +2271,7 @@ tbody tr td a:hover {
     background-color: #ffffff;
     position: absolute;
     top: 1500px;
-    left: 348px;
+    left: 400px;
   }
 
   .contenedor .fot{
@@ -2280,7 +2280,7 @@ tbody tr td a:hover {
     object-fit: contain;
     position: absolute;
     top: 1434px;
-    left: 428px;
+    left: 480px;
   }
 
   .contenedor .cuad{
@@ -2291,7 +2291,7 @@ tbody tr td a:hover {
     background-color: #ffffff;
     position: absolute;
     top: 1900px;
-    left: 15px;
+    left: 48px;
   }
 
   .contenedor .fo{
@@ -2300,7 +2300,7 @@ tbody tr td a:hover {
     object-fit: contain;
     position: absolute;
     top: 1834px;
-    left: 95px;
+    left: 128px;
   }
 
   .contenedor .segundoc{
@@ -2311,7 +2311,7 @@ tbody tr td a:hover {
     background-color: #ffffff;
     position: absolute;
     top: 1900px;
-    left: 348px;
+    left: 400px;
   }
 
   .contenedor .fotuu{
@@ -2320,7 +2320,7 @@ tbody tr td a:hover {
     object-fit: contain;
     position: absolute;
     top: 1834px;
-    left: 428px;
+    left: 480px;
   }
 
   .contenedor .segundo{
@@ -2331,7 +2331,7 @@ tbody tr td a:hover {
     background-color: #ffffff;
     position: absolute;
     top: 1900px;
-    left: 680px;
+    left: 750px;
   }
 
   .contenedor .fotu{
@@ -2340,7 +2340,7 @@ tbody tr td a:hover {
     object-fit: contain;
     position: absolute;
     top: 1834px;
-    left: 756px;
+    left: 826px;
   }
 
   .contenedor .segund{
@@ -2351,7 +2351,7 @@ tbody tr td a:hover {
     background-color: #ffffff;
     position: absolute;
     top: 1500px;
-    left: 680px;
+    left: 750px;
   }
 
   .contenedor .foty{
@@ -2360,11 +2360,11 @@ tbody tr td a:hover {
     object-fit: contain;
     position: absolute;
     top: 1434px;
-    left: 756px;
+    left: 826px;
   }
 
   .contenedor .util{
-    width: 85%;
+    width: 90%;
     height: 340px;
     border-radius: 0px;
     background-color: #f2f2f2;
@@ -2384,7 +2384,7 @@ tbody tr td a:hover {
     left: 900px;
     position: absolute;
     top: 430px;
-    left: 436px;
+    left: 540px;
   }
 
   .contenedor .pregunts{
@@ -2399,7 +2399,7 @@ tbody tr td a:hover {
     color: #ff0136;
     position: absolute;
     top: 2280px;
-    left: 30px;
+    left: 60px;
   }
 
   .contenedor .comen{
