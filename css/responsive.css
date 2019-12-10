@@ -761,6 +761,97 @@ body {
     vertical-align: middle;
   }
 
+  .contenedor .log{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+  }
+
+  .contenedor .footer{
+    width: 100%;
+    height: 230px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 3010px;
+    left: 0px;
+  }
+
+  .contenedor .logito{
+    position: relative;
+    width: 220px;
+    height: 50px;
+    object-fit: contain;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+
+  .contenedor .help{
+    width: 240px;
+    height: 57px;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgba(38, 38, 38, 0.6);
+    position: absolute;
+    left: 25px;
+  }
+
+  .contenedor .-Chiper-Ayuda{
+    width: 325px;
+    height: 19px;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgba(38, 38, 38, 0.6);
+    position: absolute;
+    top: 160px;
+    left: 25px;
+  }
+
+  .contenedor .menu{
+    float: right;
+    margin-top: 10px;
+  }
+
+  .contenedor .menu li{
+    display: inline-block;
+  }
+
+  .contenedor .menu a{
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  .contenedor .Links{
+    width: 47px;
+    height: 20px;
+    font-size: 17px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    
+  }
+
+  .contenedor .letra{
+    width: 110px;
+    height: 11px;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgba(38, 38, 38, 0.8);
+  }
+
 
 }
 
@@ -785,39 +876,8 @@ body {
   height: 863px;
 }
 
-
-.help {
-  width: 325px;
-  height: 57px;
-  font-size: 14px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: rgba(38, 38, 38, 0.6);
-  left: 25px;
-}
-
-.-Chiper-Ayuda {
-  width: 325px;
-  height: 19px;
-  font-size: 14px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: rgba(38, 38, 38, 0.6);
-  top: 170px;
-  left: 25px;
-}
-
 .menu li {
   display: inline-block;
-
-
-
 }
 
 .menu {
@@ -827,18 +887,6 @@ body {
 
 .menu a {
   padding: 50px;
-}
-
-.Links {
-  width: 47px;
-  height: 27px;
-  font-size: 17px;
-  font-weight: 900;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #fa0236;
 }
 
 .Sobre-nosotros {
@@ -1621,18 +1669,6 @@ base {
   line-height: normal;
   letter-spacing: normal;
   color: #fa0236;
-}
-
-.Sobre-nosotros {
-  width: 110px;
-  height: 22px;
-  font-size: 15px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: rgba(38, 38, 38, 0.8);
 }
 
 #input-search {
