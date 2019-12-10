@@ -8,856 +8,6 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-.contenedor {
-  width: 98%;
-  margin: 20px auto;
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(4, auto);
-}
-
-.contenedor>div,
-.contenedor .header,
-.contenedor .contenido,
-.contenedor .sidebar,
-.contenedor .footer {
-  background: #f9f9f9;
-  padding: 20px;
-  border-radius: 4px;
-}
-
-.contenedor .header {
-  color: #fff;
-  grid-column-start: 1;
-  grid-column-end: -1;
-}
-
-.contenedor .contenido {
-  grid-column: span 3;
-}
-
-.contenedor .sidebar {
-  grid-column: 3 / 4;
-  background: orange;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100px;
-  grid-row: 2 / 4;
-}
-
-.contenedor .widget-1,
-.contenedor .widget-2 {
-  background: cyan;
-  color: black;
-  height: 100px;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.contenedor .footer {
-  background: #ffffff;
-  color: #fff;
-  grid-column: span 3;
-}
-
-
-@media screen and (max-width: 686px) {
-  .contenedor .contenido {
-    grid-column: 1 / -1;
-  }
-
-  .contenedor .sidebar {
-    grid-column: 1 / -1;
-  }
-
-  .contenedor .widget-1 {
-    grid-column: span 2;
-  }
-
-  .contenedor .logo {
-    width: auto;
-  }
-}
-
-@media screen and (max-width: 686px) {
-
-  .contenedor .dimension2 {
-    display: inline-block;
-    position: absolute;
-    top: 15px;
-    right: 0px;
-    width: 100%;
-    height: 552px;
-  }
-
-  .contenedor .Shape{
-    display: none;
-    position: absolute;
-    top: 15px;
-    right: 0px;
-    width: 100%;
-    height: 863px;
-  }
-
-  .contenedor .Imagen {
-    display: none;
-    position: absolute;
-    top: 0px;
-    width: 330px;
-    height: 440px;
-  }
-
-  .contenedor .Imagen2 {
-    display: inline-block;
-    position: absolute;
-    top: 0px;
-    width: 300px;
-    height: 500px;
-  }
-
-  .contenedor .derec {
-    position: relative;
-    margin-top: 0px;
-    right: 0px;
-  }
-
-  .contenedor .text {
-    font-size: 15px;
-  }
-
-  .contenedor .textd {
-    font-size: 15px;
-  }
-
-  .contenedor .Group-7 {
-    position: relative;
-    width: 283px;
-    height: 65px;
-    object-fit: contain;
-    margin-top: 0px;
-    margin-left: 0px;
-
-  }
-
-  .contenedor .llamanos {
-    width: 190px;
-    height: 65px;
-    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.08);
-    background-color: #ffffff;
-    text-align: left;
-    border-radius: 13px;
-    position: absolute;
-    top: 59px;
-    right: 0px;
-  }
-
-  .contenedor .mensaje {
-    width: 190px;
-
-    font-size: 11px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: rgba(38, 38, 38, 0.6);
-    position: absolute;
-    left: 10px;
-    top: 5px;
-    text-align: left;
-  }
-
-  .contenedor .mensaj {
-    width: 168px;
-    font-size: 12px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: black;
-    position: absolute;
-  }
-
-  .contenedor .mensa {
-    position: absolute;
-    top: 18px;
-  }
-
-  .contenedor .titulo {
-    position: relative;
-    width: 550px;
-    height: 97px;
-    font-size: 40px;
-    line-height: 1.07;
-    letter-spacing: -3px;
-    left: 0px;
-  }
-
-  .contenedor .slogan {
-    position: relative;
-    width: 310px;
-    height: 28px;
-    font-size: 17px;
-    font-weight: 400;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.2;
-    color: rgba(38, 38, 38, 0.8);
-    top: 0px;
-    left: 0px;
-  }
-
-  .contenedor .buscador {
-    position: relative;
-    width: 340px;
-    height: 45px;
-    border-radius: 6px;
-    box-shadow: 0 12px 20px 6px rgba(0, 0, 0, 0.04);
-    background-color: #ffffff;
-    top: 0px;
-    left: 0px;
-    line-height: 2;
-  }
-
-  .contenedor .Group {
-    position: absolute;
-    margin: 5px;
-    width: 15px;
-    height: 15px;
-    margin-top: 14px;
-    object-fit: contain;
-    left: 5px;
-  }
-
-  .contenedor .outlinenone {
-    outline: none;
-    background-color: #ffffff;
-    border: 0;
-    left: 0px;
-    top: 10px;
-  }
-
-  .contenedor .duda {
-    position: relative;
-    width: 310px;
-    height: 20px;
-    opacity: 0.4;
-    font-size: 15px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.11;
-    color: #2f2f2f;
-  }
-
-  .contenedor .aprende {
-    position: absolute;
-    display: inline-block;
-    width: 110px;
-    height: 100px;
-    border-radius: 6px;
-    box-shadow: 0 14px 20px 0 rgba(0, 0, 0, 0.04);
-    background-color: #ffffff;
-    margin-top: 10px;
-  }
-
-  .contenedor .graduation {
-    width: 38px;
-    height: 37px;
-    object-fit: contain;
-    display: block;
-    margin: auto;
-  }
-
-  .contenedor .Aprende {
-    width: 110px;
-    height: 22px;
-    font-size: 12px;
-    font-weight: 900;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: rgba(38, 38, 38, 0.8);
-    text-decoration: none;
-    margin-top: 8px;
-  }
-
-  .contenedor .comunidad {
-    position: absolute;
-    display: inline-block;
-    width: 110px;
-    height: 100px;
-    border-radius: 6px;
-    box-shadow: 0 14px 20px 0 rgba(0, 0, 0, 0.04);
-    background-color: #ffffff;
-    margin: 130px;
-    margin-top: 10px;
-  }
-
-  .contenedor .conversation-1 {
-    width: 38px;
-    height: 37px;
-    object-fit: contain;
-    display: block;
-    margin: auto;
-  }
-
-  .contenedor .Comunidad {
-    width: 110px;
-    height: 22px;
-    font-size: 12px;
-    font-weight: 900;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: rgba(38, 38, 38, 0.8);
-    text-decoration: none;
-    margin-top: 8px;
-  }
-
-  .contenedor .oval {
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    border: solid 1.4px rgba(255, 1, 54, 0.2);
-    border-width: 3px 3px 3px;
-    border-style: dotted;
-    border-radius: 100px;
-    margin-top: 80px;
-    left: 30px;
-  }
-
-  .contenedor .Oval {
-    width: 40px;
-    height: 40px;
-    box-shadow: 0 6px 40px 0 rgba(255, 1, 54, 0.16);
-    background-color: #ffffff;
-    border-radius: 100px;
-    text-align: center;
-    margin: auto;
-    margin-top: 18px;
-  }
-
-  .contenedor .-Icon-olor {
-    width: 14px;
-    height: 7px;
-    object-fit: contain;
-    margin: auto;
-    margin-top: 18px;
-  }
-
-  .contenedor .dos{    
-    margin-top: -150px;
-    right: 0px;
-    width: 100%;
-    height: 763px;
-  }
-
-  .contenedor .shape2{    
-    margin-top: 10px;
-    right: 0px;
-    width: 100%;
-    height: 763px;
-  }
-
-  .contenedor .preguntas{
-    width: 372px;
-    height: 44px;
-    font-size: 40px;
-    font-weight: 900;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.1;
-    letter-spacing: -2px;
-    color: #ff0136;
-    position: absolute;
-    top: 500px;
-    left: 24px;
-  }
-
-  .contenedor .Rectangle{
-    border-radius: 6px;
-    border: solid 1px #e6e6e6;
-    background-color: #ffffff;
-    position: absolute;
-    display: grid;
-    top: 580px;
-    left: 95px;
-  }
-
-  .contenedor .tablet {
-    display: inline-block;
-    position: absolute;
-    top: 410px;
-    width: 350px;
-    height: 650px;
-    right: 0px;
-  }
-
-  .contenedor .titu2{
-    width: 350px;
-    height: 128px;
-    font-size: 40px;
-    line-height: 1.07;
-    letter-spacing: -3px;
-    position: absolute;
-    top: 1100px;
-    left: 24px;    
-  }
-
-  .contenedor .cuadro{
-    width: 300px;
-    height: 260px;
-    border-radius: 25px;
-    box-shadow: 0 14px 20px 0 rgba(0, 0, 0, 0.04);
-    background-color: #ffffff;
-    position: absolute;
-    top: 1500px;
-    left: 30px;
-  }
-
-  .contenedor .foto{
-    width: 136px;
-    height: 136px;
-    object-fit: contain;
-    position: absolute;
-    top: 1434px;
-    left: 110px;
-  }
-
-  .contenedor .cuadr{
-    width: 300px;
-    height: 260px;
-    border-radius: 25px;
-    box-shadow: 0 14px 20px 0 rgba(0, 0, 0, 0.04);
-    background-color: #ffffff;
-    position: absolute;
-    top: 1500px;
-    left: 358px;
-  }
-
-  .contenedor .fot{
-    width: 136px;
-    height: 136px;
-    object-fit: contain;
-    position: absolute;
-    top: 1434px;
-    left: 438px;
-  }
-
-  .contenedor .cuad{
-    width: 300px;
-    height: 260px;
-    border-radius: 25px;
-    box-shadow: 0 14px 20px 0 rgba(0, 0, 0, 0.04);
-    background-color: #ffffff;
-    position: absolute;
-    top: 1900px;
-    left: 30px;
-  }
-
-  .contenedor .fo{
-    width: 136px;
-    height: 136px;
-    object-fit: contain;
-    position: absolute;
-    top: 1834px;
-    left: 110px;
-  }
-
-  .contenedor .segundoc{
-    width: 300px;
-    height: 260px;
-    border-radius: 25px;
-    box-shadow: 0 14px 20px 0 rgba(0, 0, 0, 0.04);
-    background-color: #ffffff;
-    position: absolute;
-    top: 1900px;
-    left: 358px;
-  }
-
-  .contenedor .fotuu{
-    width: 136px;
-    height: 136px;
-    object-fit: contain;
-    position: absolute;
-    top: 1834px;
-    left: 438px;
-  }
-
-  .contenedor .segundo{
-    width: 300px;
-    height: 260px;
-    border-radius: 25px;
-    box-shadow: 0 14px 20px 0 rgba(0, 0, 0, 0.04);
-    background-color: #ffffff;
-    position: absolute;
-    top: 2300px;
-    left: 30px;
-  }
-
-  .contenedor .fotu{
-    width: 136px;
-    height: 136px;
-    object-fit: contain;
-    position: absolute;
-    top: 2234px;
-    left: 110px;
-  }
-
-  .contenedor .segund{
-    width: 300px;
-    height: 260px;
-    border-radius: 25px;
-    box-shadow: 0 14px 20px 0 rgba(0, 0, 0, 0.04);
-    background-color: #ffffff;
-    position: absolute;
-    top: 2300px;
-    left: 358px;
-  }
-
-  .contenedor .foty{
-    width: 136px;
-    height: 136px;
-    object-fit: contain;
-    position: absolute;
-    top: 2234px;
-    left: 438px;
-  }
-
-  .contenedor .util{
-    width: 590px;
-    height: 340px;
-    border-radius: 0px;
-    background-color: #f2f2f2;
-    position: absolute;
-    top: 2650px;
-    left: 0px;
-  }
-
-  .contenedor .imgagi{
-    float: right;
-  }
-
-  .contenedor .Ayuda-Alex{
-    width: 250px;
-    height: 400px;
-    left: 900px;
-    position: absolute;
-    top: 2610px;
-    left: 436px;
-  }
-
-  .contenedor .pregunts{
-    width: 500px;
-    height: 44px;
-    font-size: 30px;
-    font-weight: 900;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.1;
-    letter-spacing: -2px;
-    color: #ff0136;
-    position: absolute;
-    top: 2680px;
-    left: 30px;
-  }
-
-  .contenedor .comen{
-    width: 650px;
-    height: 24px;
-    font-size: 14px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.2;
-    letter-spacing: normal;
-    color: rgba(38, 38, 38, 0.8);
-    margin-top: 10px;
-  }
-
-  .contenedor .si{
-    width: 107px;
-    height: 43px;
-    border-radius: 6px;
-    border: solid 1.4px #03cd83;
-    background-color: #ffffff;
-    text-align: center;
-    display: inline-block;
-  }
-
-  .contenedor .no{
-    width: 107px;
-    height: 43px;
-    border-radius: 6px;
-    border: solid 1.4px #03cd83;
-    background-color: #ffffff;
-    display: inline-block;
-    text-align: center;
-    top: 0px;  
-  }
-
-  .contenedor .sip{
-    width: 14px;
-    height: 20px;
-    font-size: 15px;
-    font-weight: 900;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.25;
-    letter-spacing: normal;
-    text-align: center;
-    color: #03cd83;
-    vertical-align: middle;
-  }
-
-  .contenedor .bjar{
-    margin-top: 0px;
-    text-align: center;
-  }
-
-  .contenedor .llamnos{
-    width: 247px;
-    height: 110px;
-    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.08);
-    background-color: #ffffff;
-    text-align: left;
-    border-radius: 13px;
-    position: absolute;
-    top: 120px;
-  }
-
-  .contenedor .lmnos{
-    width: 393px;
-    height: 168px;
-    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.08);
-    background-color: #ffffff;
-    text-align: left;
-    border-radius: 13px;
-    position: absolute;
-    left: 0px;
-    top: 120px;
-  }
-
-  .contenedor .messagen{    
-      width: 500px;
-      height: 57px;
-      font-size: 11px;
-      font-weight: normal;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: normal;
-      letter-spacing: normal;
-      color: rgba(38, 38, 38, 0.6);
-      position: absolute;
-      left: 15px;
-      top: 20px;
-      text-align: left;    
-  }
-
-  .contenedor .mssa{
-    position: absolute;
-    top: 0px;
-  }
-
-  .contenedor .prim{
-    width: 500px;
-    height: 57px;
-    font-size: 12px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: rgba(38, 38, 38, 0.6);
-    position: absolute;
-    left: 15px;
-    top: 50px;
-    text-align: left;
-  }
-
-  .contenedor .prime{
-    width: 500px;
-    height: 57px;
-    font-size: 12px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: rgba(38, 38, 38, 0.6);
-    position: absolute;
-    left: 15px;
-    top: 75px;
-    text-align: left;
-  }
-
-  .contenedor .primer{
-    width: 500px;
-    height: 57px;
-    font-size: 12px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: rgba(38, 38, 38, 0.6);
-    position: absolute;
-    left: 15px;
-    top: 100px;
-    text-align: left;
-  }
-
-  .contenedor .primera{
-    width: 500px;
-    height: 57px;
-    font-size: 12px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: rgba(38, 38, 38, 0.6);
-    position: absolute;
-    left: 15px;
-    top: 125px;
-    text-align: left;
-  }
-
-  .contenedor .enviar{
-    width: 107px;
-    height: 43px;
-    border-radius: 6px;
-    background-color: #fa0236;
-    margin-top: 195px;
-    left: -200px;
-    position: absolute;
-    text-align: center;
-    vertical-align: middle;
-    top: -127px;
-  }
-
-  .contenedor .envi{
-    width: 47px;
-    height: 20px;
-    font-size: 15px;
-    font-weight: 900;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.25;
-    letter-spacing: normal;
-    text-align: center;
-    color: #ffffff;
-    vertical-align: middle;
-  }
-
-  .contenedor .log{
-    position: absolute;
-    top: 20px;
-    left: 10px;
-  }
-
-  .contenedor .footer{
-    width: 100%;
-    height: 230px;
-    background-color: #ffffff;
-    position: absolute;
-    top: 3010px;
-    left: 0px;
-  }
-
-  .contenedor .logito{
-    position: relative;
-    width: 220px;
-    height: 50px;
-    object-fit: contain;
-    margin-top: 10px;
-    margin-left: 20px;
-  }
-
-  .contenedor .help{
-    width: 240px;
-    height: 57px;
-    font-size: 12px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: rgba(38, 38, 38, 0.6);
-    position: absolute;
-    left: 25px;
-  }
-
-  .contenedor .-Chiper-Ayuda{
-    width: 325px;
-    height: 19px;
-    font-size: 13px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: rgba(38, 38, 38, 0.6);
-    position: absolute;
-    top: 160px;
-    left: 25px;
-  }
-
-  .contenedor .menu{
-    float: right;
-    margin-top: 10px;
-  }
-
-  .contenedor .menu li{
-    display: inline-block;
-  }
-
-  .contenedor .menu a{
-    padding: 10px;
-    font-size: 12px;
-  }
-
-  .contenedor .Links{
-    width: 47px;
-    height: 20px;
-    font-size: 17px;
-    font-weight: 900;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    
-  }
-
-  .contenedor .letra{
-    width: 110px;
-    height: 11px;
-    font-size: 15px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: rgba(38, 38, 38, 0.8);
-  }
-
-
-}
-
-
-
-
 
 .Shape {
   position: absolute;
@@ -901,7 +51,6 @@ body {
   color: rgba(38, 38, 38, 0.8);
 }
 
-
 base {
   width: 100%;
   height: 140px;
@@ -932,7 +81,6 @@ base {
 }
 
 .quiet {
-
   margin-right: 10px;
   float: left;
 }
@@ -961,7 +109,6 @@ base {
   border-radius: 6px;
   border: solid 1.4px #ff0136;
   background-color: #ff0136;
-
 }
 
 .textd {
@@ -1894,4 +1041,1635 @@ tbody tr td a:hover {
   text-align: left;
 }
 
+.contenedor {
+  width: 98%;
+  margin: 20px auto;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, auto);
+}
 
+.contenedor>div,
+.contenedor .header,
+.contenedor .contenido,
+.contenedor .sidebar,
+.contenedor .footer {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.contenedor .header {
+  color: #fff;
+  grid-column-start: 1;
+  grid-column-end: -1;
+}
+
+.contenedor .contenido {
+  grid-column: span 3;
+}
+
+.contenedor .sidebar {
+  grid-column: 3 / 4;
+  background: orange;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100px;
+  grid-row: 2 / 4;
+}
+
+.contenedor .widget-1,
+.contenedor .widget-2 {
+  background: cyan;
+  color: black;
+  height: 100px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenedor .footer {
+  background: #ffffff;
+  color: #fff;
+  grid-column: span 3;
+}
+
+
+@media screen and (min-width: 686px) {
+  .contenedor .contenido {
+    grid-column: 1 / -1;
+  }
+
+  .contenedor .sidebar {
+    grid-column: 1 / -1;
+  }
+
+  .contenedor .widget-1 {
+    grid-column: span 2;
+  }
+
+  .contenedor .logo {
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 686px) {
+
+  .contenedor .dimension2 {
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    width: 100%;
+    height: 552px;
+  }
+
+  .contenedor .Shape{
+    display: none;
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    width: 100%;
+    height: 863px;
+  }
+
+  .contenedor .Imagen {
+    display: none;
+    position: absolute;
+    top: 0px;
+    width: 330px;
+    height: 440px;
+  }
+
+  .contenedor .Imagen2 {
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    width: 300px;
+    height: 500px;
+  }
+
+  .contenedor .derec {
+    position: relative;
+    margin-top: 0px;
+    right: 0px;
+  }
+
+  .contenedor .text {
+    font-size: 15px;
+  }
+
+  .contenedor .textd {
+    font-size: 15px;
+  }
+
+  .contenedor .Group-7 {
+    position: relative;
+    width: 283px;
+    height: 65px;
+    object-fit: contain;
+    margin-top: 0px;
+    margin-left: 0px;
+
+  }
+
+  .contenedor .llamanos {
+    width: 190px;
+    height: 65px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.08);
+    background-color: #ffffff;
+    text-align: left;
+    border-radius: 13px;
+    position: absolute;
+    top: 59px;
+    right: 0px;
+  }
+
+  .contenedor .mensaje {
+    width: 190px;
+
+    font-size: 11px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgba(38, 38, 38, 0.6);
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    text-align: left;
+  }
+
+  .contenedor .mensaj {
+    width: 168px;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: black;
+    position: absolute;
+  }
+
+  .contenedor .mensa {
+    position: absolute;
+    top: 18px;
+  }
+
+  .contenedor .titulo {
+    position: relative;
+    width: 550px;
+    height: 97px;
+    font-size: 40px;
+    line-height: 1.07;
+    letter-spacing: -3px;
+    left: 0px;
+  }
+
+  .contenedor .slogan {
+    position: relative;
+    width: 310px;
+    height: 28px;
+    font-size: 17px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    color: rgba(38, 38, 38, 0.8);
+    top: 0px;
+    left: 0px;
+  }
+
+  .contenedor .buscador {
+    position: relative;
+    width: 340px;
+    height: 45px;
+    border-radius: 6px;
+    box-shadow: 0 12px 20px 6px rgba(0, 0, 0, 0.04);
+    background-color: #ffffff;
+    top: 0px;
+    left: 0px;
+    line-height: 2;
+  }
+
+  .contenedor .Group {
+    position: absolute;
+    margin: 5px;
+    width: 15px;
+    height: 15px;
+    margin-top: 14px;
+    object-fit: contain;
+    left: 5px;
+  }
+
+  .contenedor .outlinenone {
+    outline: none;
+    background-color: #ffffff;
+    border: 0;
+    left: 0px;
+    top: 10px;
+  }
+
+  .contenedor .duda {
+    position: relative;
+    width: 310px;
+    height: 20px;
+    opacity: 0.4;
+    font-size: 15px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.11;
+    color: #2f2f2f;
+  }
+
+  .contenedor .aprende {
+    position: absolute;
+    display: inline-block;
+    width: 110px;
+    height: 100px;
+    border-radius: 6px;
+    box-shadow: 0 14px 20px 0 rgba(0, 0, 0, 0.04);
+    background-color: #ffffff;
+    margin-top: 10px;
+  }
+
+  .contenedor .graduation {
+    width: 38px;
+    height: 37px;
+    object-fit: contain;
+    display: block;
+    margin: auto;
+  }
+
+  .contenedor .Aprende {
+    width: 110px;
+    height: 22px;
+    font-size: 12px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: rgba(38, 38, 38, 0.8);
+    text-decoration: none;
+    margin-top: 8px;
+  }
+
+  .contenedor .comunidad {
+    position: absolute;
+    display: inline-block;
+    width: 110px;
+    height: 100px;
+    border-radius: 6px;
+    box-shadow: 0 14px 20px 0 rgba(0, 0, 0, 0.04);
+    background-color: #ffffff;
+    margin: 130px;
+    margin-top: 10px;
+  }
+
+  .contenedor .conversation-1 {
+    width: 38px;
+    height: 37px;
+    object-fit: contain;
+    display: block;
+    margin: auto;
+  }
+
+  .contenedor .Comunidad {
+    width: 110px;
+    height: 22px;
+    font-size: 12px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: rgba(38, 38, 38, 0.8);
+    text-decoration: none;
+    margin-top: 8px;
+  }
+
+  .contenedor .oval {    
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border: solid 1.4px rgba(255, 1, 54, 0.2);
+    border-width: 3px 3px 3px;
+    border-style: dotted;
+    border-radius: 100px;
+    margin-top: 80px;
+    left: 30px;
+  }
+
+  .contenedor .Oval {    
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 6px 40px 0 rgba(255, 1, 54, 0.16);
+    background-color: #ffffff;
+    border-radius: 100px;
+    text-align: center;
+    margin: auto;
+    margin-top: 18px;
+  }
+
+  .contenedor .-Icon-olor {
+    width: 14px;
+    height: 7px;
+    object-fit: contain;
+    margin: auto;
+    margin-top: 18px;
+  }
+
+  .contenedor .dos{    
+    margin-top: -150px;
+    right: 0px;
+    width: 100%;
+    height: 763px;
+  }
+
+  .contenedor .shape2{    
+    margin-top: 10px;
+    right: 0px;
+    width: 100%;
+    height: 763px;
+  }
+
+  .contenedor .preguntas{
+    width: 372px;
+    height: 44px;
+    font-size: 40px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.1;
+    letter-spacing: -2px;
+    color: #ff0136;
+    position: absolute;
+    top: 500px;
+    left: 24px;
+  }
+
+  .contenedor .Rectangle{
+    border-radius: 6px;
+    border: solid 1px #e6e6e6;
+    background-color: #ffffff;
+    position: absolute;
+    display: grid;
+    top: 580px;
+    left: 95px;
+  }
+
+  .contenedor .tablet {
+    display: inline-block;
+    position: absolute;
+    top: 410px;
+    width: 350px;
+    height: 650px;
+    right: 0px;
+  }
+
+  .contenedor .titu2{
+    width: 350px;
+    height: 128px;
+    font-size: 40px;
+    line-height: 1.07;
+    letter-spacing: -3px;
+    position: absolute;
+    top: 1100px;
+    left: 24px;    
+  }
+
+  .contenedor .cuadro{
+    width: 300px;
+    height: 260px;
+    border-radius: 25px;
+    box-shadow: 0 14px 20px 0 rgba(0, 0, 0, 0.04);
+    background-color: #ffffff;
+    position: absolute;
+    top: 1500px;
+    left: 30px;
+  }
+
+  .contenedor .foto{
+    width: 136px;
+    height: 136px;
+    object-fit: contain;
+    position: absolute;
+    top: 1434px;
+    left: 110px;
+  }
+
+  .contenedor .cuadr{
+    width: 300px;
+    height: 260px;
+    border-radius: 25px;
+    box-shadow: 0 14px 20px 0 rgba(0, 0, 0, 0.04);
+    background-color: #ffffff;
+    position: absolute;
+    top: 1500px;
+    left: 358px;
+  }
+
+  .contenedor .fot{
+    width: 136px;
+    height: 136px;
+    object-fit: contain;
+    position: absolute;
+    top: 1434px;
+    left: 438px;
+  }
+
+  .contenedor .cuad{
+    width: 300px;
+    height: 260px;
+    border-radius: 25px;
+    box-shadow: 0 14px 20px 0 rgba(0, 0, 0, 0.04);
+    background-color: #ffffff;
+    position: absolute;
+    top: 1900px;
+    left: 30px;
+  }
+
+  .contenedor .fo{
+    width: 136px;
+    height: 136px;
+    object-fit: contain;
+    position: absolute;
+    top: 1834px;
+    left: 110px;
+  }
+
+  .contenedor .segundoc{
+    width: 300px;
+    height: 260px;
+    border-radius: 25px;
+    box-shadow: 0 14px 20px 0 rgba(0, 0, 0, 0.04);
+    background-color: #ffffff;
+    position: absolute;
+    top: 1900px;
+    left: 358px;
+  }
+
+  .contenedor .fotuu{
+    width: 136px;
+    height: 136px;
+    object-fit: contain;
+    position: absolute;
+    top: 1834px;
+    left: 438px;
+  }
+
+  .contenedor .segundo{
+    width: 300px;
+    height: 260px;
+    border-radius: 25px;
+    box-shadow: 0 14px 20px 0 rgba(0, 0, 0, 0.04);
+    background-color: #ffffff;
+    position: absolute;
+    top: 2300px;
+    left: 30px;
+  }
+
+  .contenedor .fotu{
+    width: 136px;
+    height: 136px;
+    object-fit: contain;
+    position: absolute;
+    top: 2234px;
+    left: 110px;
+  }
+
+  .contenedor .segund{
+    width: 300px;
+    height: 260px;
+    border-radius: 25px;
+    box-shadow: 0 14px 20px 0 rgba(0, 0, 0, 0.04);
+    background-color: #ffffff;
+    position: absolute;
+    top: 2300px;
+    left: 358px;
+  }
+
+  .contenedor .foty{
+    width: 136px;
+    height: 136px;
+    object-fit: contain;
+    position: absolute;
+    top: 2234px;
+    left: 438px;
+  }
+
+  .contenedor .util{
+    width: 590px;
+    height: 340px;
+    border-radius: 0px;
+    background-color: #f2f2f2;
+    position: absolute;
+    top: 2650px;
+    left: 0px;
+  }
+
+  .contenedor .imgagi{
+    float: right;
+  }
+
+  .contenedor .Ayuda-Alex{
+    width: 250px;
+    height: 400px;
+    left: 900px;
+    position: absolute;
+    top: 2610px;
+    left: 436px;
+  }
+
+  .contenedor .pregunts{
+    width: 500px;
+    height: 44px;
+    font-size: 30px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.1;
+    letter-spacing: -2px;
+    color: #ff0136;
+    position: absolute;
+    top: 2680px;
+    left: 30px;
+  }
+
+  .contenedor .comen{
+    width: 650px;
+    height: 24px;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    color: rgba(38, 38, 38, 0.8);
+    margin-top: 10px;
+  }
+
+  .contenedor .si{
+    width: 107px;
+    height: 43px;
+    border-radius: 6px;
+    border: solid 1.4px #03cd83;
+    background-color: #ffffff;
+    text-align: center;
+    display: inline-block;
+  }
+
+  .contenedor .no{
+    width: 107px;
+    height: 43px;
+    border-radius: 6px;
+    border: solid 1.4px #03cd83;
+    background-color: #ffffff;
+    display: inline-block;
+    text-align: center;
+    top: 0px;  
+  }
+
+  .contenedor .sip{
+    width: 14px;
+    height: 20px;
+    font-size: 15px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #03cd83;
+    vertical-align: middle;
+  }
+
+  .contenedor .bjar{
+    margin-top: 0px;
+    text-align: center;
+  }
+
+  .contenedor .llamnos{
+    width: 247px;
+    height: 110px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.08);
+    background-color: #ffffff;
+    text-align: left;
+    border-radius: 13px;
+    position: absolute;
+    top: 120px;
+  }
+
+  .contenedor .lmnos{
+    width: 393px;
+    height: 168px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.08);
+    background-color: #ffffff;
+    text-align: left;
+    border-radius: 13px;
+    position: absolute;
+    left: 0px;
+    top: 120px;
+  }
+
+  .contenedor .messagen{    
+      width: 500px;
+      height: 57px;
+      font-size: 11px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: rgba(38, 38, 38, 0.6);
+      position: absolute;
+      left: 15px;
+      top: 20px;
+      text-align: left;    
+  }
+
+  .contenedor .mssa{
+    position: absolute;
+    top: 0px;
+  }
+
+  .contenedor .prim{
+    width: 500px;
+    height: 57px;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgba(38, 38, 38, 0.6);
+    position: absolute;
+    left: 15px;
+    top: 50px;
+    text-align: left;
+  }
+
+  .contenedor .prime{
+    width: 500px;
+    height: 57px;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgba(38, 38, 38, 0.6);
+    position: absolute;
+    left: 15px;
+    top: 75px;
+    text-align: left;
+  }
+
+  .contenedor .primer{
+    width: 500px;
+    height: 57px;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgba(38, 38, 38, 0.6);
+    position: absolute;
+    left: 15px;
+    top: 100px;
+    text-align: left;
+  }
+
+  .contenedor .primera{
+    width: 500px;
+    height: 57px;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgba(38, 38, 38, 0.6);
+    position: absolute;
+    left: 15px;
+    top: 125px;
+    text-align: left;
+  }
+
+  .contenedor .enviar{
+    width: 107px;
+    height: 43px;
+    border-radius: 6px;
+    background-color: #fa0236;
+    margin-top: 195px;
+    left: -200px;
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    top: -127px;
+  }
+
+  .contenedor .envi{
+    width: 47px;
+    height: 20px;
+    font-size: 15px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    vertical-align: middle;
+  }
+
+  .contenedor .log{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+  }
+
+  .contenedor .footer{
+    width: 100%;
+    height: 230px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 3010px;
+    left: 0px;
+  }
+
+  .contenedor .logito{
+    position: relative;
+    width: 220px;
+    height: 50px;
+    object-fit: contain;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+
+  .contenedor .help{
+    width: 240px;
+    height: 57px;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgba(38, 38, 38, 0.6);
+    position: absolute;
+    left: 25px;
+  }
+
+  .contenedor .-Chiper-Ayuda{
+    width: 325px;
+    height: 19px;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgba(38, 38, 38, 0.6);
+    position: absolute;
+    top: 160px;
+    left: 25px;
+  }
+
+  .contenedor .menu{
+    float: right;
+    margin-top: 10px;
+  }
+
+  .contenedor .menu li{
+    display: inline-block;
+  }
+
+  .contenedor .menu a{
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  .contenedor .Links{
+    width: 47px;
+    height: 20px;
+    font-size: 17px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    
+  }
+
+  .contenedor .letra{
+    width: 110px;
+    height: 11px;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgba(38, 38, 38, 0.8);
+  }
+}
+
+
+@media screen and (min-width: 992px) {
+  .contenedor .contenido {
+    grid-column: 1 / -1;
+  }
+
+  .contenedor .sidebar {
+    grid-column: 1 / -1;
+  }
+
+  .contenedor .widget-1 {
+    grid-column: span 2;
+  }
+
+  .contenedor .logo {
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 992px) {
+
+  .contenedor .dimension2 {
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    width: 100%;
+    height: 552px;
+  }
+
+  .contenedor .Shape{
+    display: none;
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    width: 100%;
+    height: 863px;
+  }
+
+  .contenedor .Imagen {
+    display: none;
+    position: absolute;
+    top: 0px;
+    width: 330px;
+    height: 440px;
+  }
+
+  .contenedor .Imagen2 {
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    width: 300px;
+    height: 500px;
+  }
+
+  .contenedor .derec {
+    position: relative;
+    margin-top: 0px;
+    right: 0px;
+  }
+
+  .contenedor .text {
+    font-size: 15px;
+  }
+
+  .contenedor .textd {
+    font-size: 15px;
+  }
+
+  .contenedor .Group-7 {
+    position: relative;
+    width: 283px;
+    height: 65px;
+    object-fit: contain;
+    margin-top: 0px;
+    margin-left: 0px;
+
+  }
+
+  .contenedor .llamanos {
+    width: 190px;
+    height: 65px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.08);
+    background-color: #ffffff;
+    text-align: left;
+    border-radius: 13px;
+    position: absolute;
+    top: 59px;
+    right: 0px;
+  }
+
+  .contenedor .mensaje {
+    width: 190px;
+
+    font-size: 11px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgba(38, 38, 38, 0.6);
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    text-align: left;
+  }
+
+  .contenedor .mensaj {
+    width: 168px;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: black;
+    position: absolute;
+  }
+
+  .contenedor .mensa {
+    position: absolute;
+    top: 18px;
+  }
+
+  .contenedor .titulo {
+    position: relative;
+    width: 550px;
+    height: 97px;
+    font-size: 40px;
+    line-height: 1.07;
+    letter-spacing: -3px;
+    left: 0px;
+  }
+
+  .contenedor .slogan {
+    position: relative;
+    width: 310px;
+    height: 28px;
+    font-size: 17px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    color: rgba(38, 38, 38, 0.8);
+    top: 0px;
+    left: 0px;
+  }
+
+  .contenedor .buscador {
+    position: relative;
+    width: 340px;
+    height: 45px;
+    border-radius: 6px;
+    box-shadow: 0 12px 20px 6px rgba(0, 0, 0, 0.04);
+    background-color: #ffffff;
+    top: 0px;
+    left: 0px;
+    line-height: 2;
+  }
+
+  .contenedor .Group {
+    position: absolute;
+    margin: 5px;
+    width: 15px;
+    height: 15px;
+    margin-top: 14px;
+    object-fit: contain;
+    left: 5px;
+  }
+
+  .contenedor .outlinenone {
+    outline: none;
+    background-color: #ffffff;
+    border: 0;
+    left: 0px;
+    top: 10px;
+  }
+
+  .contenedor .duda {
+    position: relative;
+    width: 310px;
+    height: 20px;
+    opacity: 0.4;
+    font-size: 15px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.11;
+    color: #2f2f2f;
+  }
+
+  .contenedor .aprende {
+    position: absolute;
+    display: inline-block;
+    width: 110px;
+    height: 100px;
+    border-radius: 6px;
+    box-shadow: 0 14px 20px 0 rgba(0, 0, 0, 0.04);
+    background-color: #ffffff;
+    margin-top: 10px;
+  }
+
+  .contenedor .graduation {
+    width: 38px;
+    height: 37px;
+    object-fit: contain;
+    display: block;
+    margin: auto;
+  }
+
+  .contenedor .Aprende {
+    width: 110px;
+    height: 22px;
+    font-size: 12px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: rgba(38, 38, 38, 0.8);
+    text-decoration: none;
+    margin-top: 8px;
+  }
+
+  .contenedor .comunidad {
+    position: absolute;
+    display: inline-block;
+    width: 110px;
+    height: 100px;
+    border-radius: 6px;
+    box-shadow: 0 14px 20px 0 rgba(0, 0, 0, 0.04);
+    background-color: #ffffff;
+    margin: 130px;
+    margin-top: 10px;
+  }
+
+  .contenedor .conversation-1 {
+    width: 38px;
+    height: 37px;
+    object-fit: contain;
+    display: block;
+    margin: auto;
+  }
+
+  .contenedor .Comunidad {
+    width: 110px;
+    height: 22px;
+    font-size: 12px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: rgba(38, 38, 38, 0.8);
+    text-decoration: none;
+    margin-top: 8px;
+  }
+
+  .contenedor .oval {    
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border: solid 1.4px rgba(255, 1, 54, 0.2);
+    border-width: 3px 3px 3px;
+    border-style: dotted;
+    border-radius: 100px;
+    margin-top: 80px;
+    left: 30px;
+  }
+
+  .contenedor .Oval {    
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 6px 40px 0 rgba(255, 1, 54, 0.16);
+    background-color: #ffffff;
+    border-radius: 100px;
+    text-align: center;
+    margin: auto;
+    margin-top: 18px;
+  }
+
+  .contenedor .-Icon-olor {
+    width: 14px;
+    height: 7px;
+    object-fit: contain;
+    margin: auto;
+    margin-top: 18px;
+  }
+
+  .contenedor .dos{    
+    margin-top: -150px;
+    right: 0px;
+    width: 100%;
+    height: 763px;
+  }
+
+  .contenedor .shape2{    
+    margin-top: 10px;
+    right: 0px;
+    width: 100%;
+    height: 763px;
+  }
+
+  .contenedor .preguntas{
+    width: 372px;
+    height: 44px;
+    font-size: 40px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.1;
+    letter-spacing: -2px;
+    color: #ff0136;
+    position: absolute;
+    top: 500px;
+    left: 24px;
+  }
+
+  .contenedor .Rectangle{
+    border-radius: 6px;
+    border: solid 1px #e6e6e6;
+    background-color: #ffffff;
+    position: absolute;
+    display: grid;
+    top: 580px;
+    left: 95px;
+  }
+
+  .contenedor .tablet {
+    display: inline-block;
+    position: absolute;
+    top: 410px;
+    width: 350px;
+    height: 650px;
+    right: 0px;
+  }
+
+  .contenedor .titu2{
+    width: 350px;
+    height: 128px;
+    font-size: 40px;
+    line-height: 1.07;
+    letter-spacing: -3px;
+    position: absolute;
+    top: 1100px;
+    left: 24px;    
+  }
+
+  .contenedor .cuadro{
+    width: 300px;
+    height: 260px;
+    border-radius: 25px;
+    box-shadow: 0 14px 20px 0 rgba(0, 0, 0, 0.04);
+    background-color: #ffffff;
+    position: absolute;
+    top: 1500px;
+    left: 30px;
+  }
+
+  .contenedor .foto{
+    width: 136px;
+    height: 136px;
+    object-fit: contain;
+    position: absolute;
+    top: 1434px;
+    left: 110px;
+  }
+
+  .contenedor .cuadr{
+    width: 300px;
+    height: 260px;
+    border-radius: 25px;
+    box-shadow: 0 14px 20px 0 rgba(0, 0, 0, 0.04);
+    background-color: #ffffff;
+    position: absolute;
+    top: 1500px;
+    left: 358px;
+  }
+
+  .contenedor .fot{
+    width: 136px;
+    height: 136px;
+    object-fit: contain;
+    position: absolute;
+    top: 1434px;
+    left: 438px;
+  }
+
+  .contenedor .cuad{
+    width: 300px;
+    height: 260px;
+    border-radius: 25px;
+    box-shadow: 0 14px 20px 0 rgba(0, 0, 0, 0.04);
+    background-color: #ffffff;
+    position: absolute;
+    top: 1900px;
+    left: 30px;
+  }
+
+  .contenedor .fo{
+    width: 136px;
+    height: 136px;
+    object-fit: contain;
+    position: absolute;
+    top: 1834px;
+    left: 110px;
+  }
+
+  .contenedor .segundoc{
+    width: 300px;
+    height: 260px;
+    border-radius: 25px;
+    box-shadow: 0 14px 20px 0 rgba(0, 0, 0, 0.04);
+    background-color: #ffffff;
+    position: absolute;
+    top: 1900px;
+    left: 358px;
+  }
+
+  .contenedor .fotuu{
+    width: 136px;
+    height: 136px;
+    object-fit: contain;
+    position: absolute;
+    top: 1834px;
+    left: 438px;
+  }
+
+  .contenedor .segundo{
+    width: 300px;
+    height: 260px;
+    border-radius: 25px;
+    box-shadow: 0 14px 20px 0 rgba(0, 0, 0, 0.04);
+    background-color: #ffffff;
+    position: absolute;
+    top: 2300px;
+    left: 30px;
+  }
+
+  .contenedor .fotu{
+    width: 136px;
+    height: 136px;
+    object-fit: contain;
+    position: absolute;
+    top: 2234px;
+    left: 110px;
+  }
+
+  .contenedor .segund{
+    width: 300px;
+    height: 260px;
+    border-radius: 25px;
+    box-shadow: 0 14px 20px 0 rgba(0, 0, 0, 0.04);
+    background-color: #ffffff;
+    position: absolute;
+    top: 2300px;
+    left: 358px;
+  }
+
+  .contenedor .foty{
+    width: 136px;
+    height: 136px;
+    object-fit: contain;
+    position: absolute;
+    top: 2234px;
+    left: 438px;
+  }
+
+  .contenedor .util{
+    width: 590px;
+    height: 340px;
+    border-radius: 0px;
+    background-color: #f2f2f2;
+    position: absolute;
+    top: 2650px;
+    left: 0px;
+  }
+
+  .contenedor .imgagi{
+    float: right;
+  }
+
+  .contenedor .Ayuda-Alex{
+    width: 250px;
+    height: 400px;
+    left: 900px;
+    position: absolute;
+    top: 2610px;
+    left: 436px;
+  }
+
+  .contenedor .pregunts{
+    width: 500px;
+    height: 44px;
+    font-size: 30px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.1;
+    letter-spacing: -2px;
+    color: #ff0136;
+    position: absolute;
+    top: 2680px;
+    left: 30px;
+  }
+
+  .contenedor .comen{
+    width: 650px;
+    height: 24px;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    color: rgba(38, 38, 38, 0.8);
+    margin-top: 10px;
+  }
+
+  .contenedor .si{
+    width: 107px;
+    height: 43px;
+    border-radius: 6px;
+    border: solid 1.4px #03cd83;
+    background-color: #ffffff;
+    text-align: center;
+    display: inline-block;
+  }
+
+  .contenedor .no{
+    width: 107px;
+    height: 43px;
+    border-radius: 6px;
+    border: solid 1.4px #03cd83;
+    background-color: #ffffff;
+    display: inline-block;
+    text-align: center;
+    top: 0px;  
+  }
+
+  .contenedor .sip{
+    width: 14px;
+    height: 20px;
+    font-size: 15px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #03cd83;
+    vertical-align: middle;
+  }
+
+  .contenedor .bjar{
+    margin-top: 0px;
+    text-align: center;
+  }
+
+  .contenedor .llamnos{
+    width: 247px;
+    height: 110px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.08);
+    background-color: #ffffff;
+    text-align: left;
+    border-radius: 13px;
+    position: absolute;
+    top: 120px;
+  }
+
+  .contenedor .lmnos{
+    width: 393px;
+    height: 168px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.08);
+    background-color: #ffffff;
+    text-align: left;
+    border-radius: 13px;
+    position: absolute;
+    left: 0px;
+    top: 120px;
+  }
+
+  .contenedor .messagen{    
+      width: 500px;
+      height: 57px;
+      font-size: 11px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: rgba(38, 38, 38, 0.6);
+      position: absolute;
+      left: 15px;
+      top: 20px;
+      text-align: left;    
+  }
+
+  .contenedor .mssa{
+    position: absolute;
+    top: 0px;
+  }
+
+  .contenedor .prim{
+    width: 500px;
+    height: 57px;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgba(38, 38, 38, 0.6);
+    position: absolute;
+    left: 15px;
+    top: 50px;
+    text-align: left;
+  }
+
+  .contenedor .prime{
+    width: 500px;
+    height: 57px;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgba(38, 38, 38, 0.6);
+    position: absolute;
+    left: 15px;
+    top: 75px;
+    text-align: left;
+  }
+
+  .contenedor .primer{
+    width: 500px;
+    height: 57px;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgba(38, 38, 38, 0.6);
+    position: absolute;
+    left: 15px;
+    top: 100px;
+    text-align: left;
+  }
+
+  .contenedor .primera{
+    width: 500px;
+    height: 57px;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgba(38, 38, 38, 0.6);
+    position: absolute;
+    left: 15px;
+    top: 125px;
+    text-align: left;
+  }
+
+  .contenedor .enviar{
+    width: 107px;
+    height: 43px;
+    border-radius: 6px;
+    background-color: #fa0236;
+    margin-top: 195px;
+    left: -200px;
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    top: -127px;
+  }
+
+  .contenedor .envi{
+    width: 47px;
+    height: 20px;
+    font-size: 15px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    vertical-align: middle;
+  }
+
+  .contenedor .log{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+  }
+
+  .contenedor .footer{
+    width: 100%;
+    height: 230px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 3010px;
+    left: 0px;
+  }
+
+  .contenedor .logito{
+    position: relative;
+    width: 220px;
+    height: 50px;
+    object-fit: contain;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+
+  .contenedor .help{
+    width: 240px;
+    height: 57px;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgba(38, 38, 38, 0.6);
+    position: absolute;
+    left: 25px;
+  }
+
+  .contenedor .-Chiper-Ayuda{
+    width: 325px;
+    height: 19px;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgba(38, 38, 38, 0.6);
+    position: absolute;
+    top: 160px;
+    left: 25px;
+  }
+
+  .contenedor .menu{
+    float: right;
+    margin-top: 10px;
+  }
+
+  .contenedor .menu li{
+    display: inline-block;
+  }
+
+  .contenedor .menu a{
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  .contenedor .Links{
+    width: 47px;
+    height: 20px;
+    font-size: 17px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    
+  }
+
+  .contenedor .letra{
+    width: 110px;
+    height: 11px;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgba(38, 38, 38, 0.8);
+  }
+}
