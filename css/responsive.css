@@ -2364,7 +2364,7 @@ tbody tr td a:hover {
   }
 
   .contenedor .imgagi{
-    width: 100%;
+    float: right;
   }
 
   .contenedor .Ayuda-Alex{
@@ -3167,8 +3167,9 @@ tbody tr td a:hover {
   }
 
   .contenedor .imgagi{
+    float: right;
     position: absolute;
-    float: right;   
+    left: 306px;    
   }
 
   .contenedor .Ayuda-Alex{
@@ -3178,6 +3179,10 @@ tbody tr td a:hover {
     position: absolute;
     top: 430px;
     left: 540px;
+  }
+
+  .contenedor .mayus{
+    font-size: 35px;
   }
 
   .contenedor .pregunts{
