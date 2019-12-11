@@ -1950,11 +1950,12 @@ tbody tr td a:hover {
   }
 
   .contenedor .text {
-    font-size: 15px;
+    font-size: 16px;
+    top: 10px;
   }
 
   .contenedor .textd {
-    font-size: 15px;
+    font-size: 16px;
   }
 
   .contenedor .Group-7 {
@@ -2465,11 +2466,11 @@ tbody tr td a:hover {
     text-align: left;
     border-radius: 13px;
     position: absolute;
-    top: 120px;
+    top: 135px;
   }
 
   .contenedor .lmnos{
-    width: 393px;
+    width: 525px;
     height: 168px;
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.08);
     background-color: #ffffff;
@@ -2477,13 +2478,13 @@ tbody tr td a:hover {
     border-radius: 13px;
     position: absolute;
     left: 0px;
-    top: 120px;
+    top: 135px;
   }
 
   .contenedor .messagen{    
       width: 500px;
       height: 57px;
-      font-size: 11px;
+      font-size: 15px;
       font-weight: normal;
       font-stretch: normal;
       font-style: normal;
@@ -2504,7 +2505,7 @@ tbody tr td a:hover {
   .contenedor .prim{
     width: 500px;
     height: 57px;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -2520,7 +2521,7 @@ tbody tr td a:hover {
   .contenedor .prime{
     width: 500px;
     height: 57px;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -2536,7 +2537,7 @@ tbody tr td a:hover {
   .contenedor .primer{
     width: 500px;
     height: 57px;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -2552,7 +2553,7 @@ tbody tr td a:hover {
   .contenedor .primera{
     width: 500px;
     height: 57px;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -2571,17 +2572,17 @@ tbody tr td a:hover {
     border-radius: 6px;
     background-color: #fa0236;
     margin-top: 195px;
-    left: -200px;
+    left: -188px;
     position: absolute;
     text-align: center;
     vertical-align: middle;
-    top: -127px;
+    top: -114px;
   }
 
   .contenedor .envi{
     width: 47px;
     height: 20px;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 900;
     font-stretch: normal;
     font-style: normal;
@@ -2595,7 +2596,7 @@ tbody tr td a:hover {
   .contenedor .log{
     position: absolute;
     top: 20px;
-    left: 10px;
+    left: 60px;
   }
 
   .contenedor .footer{
@@ -2603,23 +2604,23 @@ tbody tr td a:hover {
     height: 230px;
     background-color: #ffffff;
     position: absolute;
-    top: 3010px;
+    top: 2617px;
     left: 0px;
   }
 
   .contenedor .logito{
     position: relative;
-    width: 220px;
-    height: 50px;
+    width: 240px;
+    height: 70px;
     object-fit: contain;
     margin-top: 10px;
     margin-left: 20px;
   }
 
   .contenedor .help{
-    width: 240px;
+    width: 280px;
     height: 57px;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -2633,7 +2634,7 @@ tbody tr td a:hover {
   .contenedor .-Chiper-Ayuda{
     width: 325px;
     height: 19px;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -2647,7 +2648,7 @@ tbody tr td a:hover {
 
   .contenedor .menu{
     float: right;
-    margin-top: 10px;
+    margin-top: 30px;
   }
 
   .contenedor .menu li{
@@ -2655,14 +2656,14 @@ tbody tr td a:hover {
   }
 
   .contenedor .menu a{
-    padding: 10px;
-    font-size: 12px;
+    padding: 50px;
+    font-size: 14px;
   }
 
   .contenedor .Links{
     width: 47px;
     height: 20px;
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 900;
     font-stretch: normal;
     font-style: normal;
