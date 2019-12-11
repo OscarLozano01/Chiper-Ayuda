@@ -83,6 +83,25 @@ html {
       width: 634px;    
       left: 248px;
     }
+  }
+
+  @media (min-width: 800px){
+    
+    #accesos{
+      display: inline-block;
+      position: relative;        
+      transform: translate(-50%, 0);    
+      background-color: #fefffa;    
+      padding: 0.3em;    
+      max-width:1280px;   
+      min-width: 360px;
+      box-shadow: 0 10px 0 0 #ff0136 inset; 
+      border: solid 1px #e6e6e6;
+      border-radius: 6px;
+      position: absolute;
+      width: 747px;    
+      left: 304px;
+    }
 
   }
   
@@ -104,8 +123,8 @@ html {
       width: 965px;    
       left: 248px;
     }
-
   }
+
   h1, h2, p {
     color: #2f2f2f;    
   }
