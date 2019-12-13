@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="28" viewBox="0 0 28 28">
-    <defs>
-        <path id="a" d="M10.5 21.33c0 .646.376.794.83.34l5.34-5.34a1.179 1.179 0 0 0 0-1.66l-5.34-5.34c-.458-.458-.83-.298-.83.34v11.66z"/>
-    </defs>
-    <g fill="none" fill-rule="evenodd">
-        <rect width="28" height="28" fill="#F2F2F2" rx="14"/>
-        <use fill="#A0A0A0" fill-rule="nonzero" transform="rotate(90 14 15.5)" xlink:href="#a"/>
-    </g>
-</svg>
