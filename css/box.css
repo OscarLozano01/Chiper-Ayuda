@@ -144,6 +144,25 @@ html {
     }
   }
 
+  @media (min-width: 1350px){
+    
+    #accesos{
+      display: inline-block;
+      position: relative;        
+      transform: translate(-50%, 0);    
+      background-color: #fefffa;    
+      padding: 0.3em;    
+      max-width:1280px;   
+      min-width: 360px;
+      box-shadow: 0 10px 0 0 #ff0136 inset; 
+      border: solid 1px #e6e6e6;
+      border-radius: 6px;
+      position: absolute;
+      width: 660px;    
+      left: 175px;
+    }
+  }
+
   h1, h2, p {
     color: #2f2f2f;    
   }
