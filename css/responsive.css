@@ -4560,7 +4560,7 @@ tbody tr td a:hover {
     width: 110px;
     height: 22px;
     font-size: 17px;
-    font-weight: 900;
+    font-weight: 700;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
@@ -4594,7 +4594,7 @@ tbody tr td a:hover {
     width: 110px;
     height: 22px;
     font-size: 17px;
-    font-weight: 900;
+    font-weight: 700;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
@@ -4603,8 +4603,7 @@ tbody tr td a:hover {
     color: rgba(38, 38, 38, 0.8);
     text-decoration: none;
     margin-top: 3px;
-    margin-left: -11px;
-
+    margin-left: 0px;
   }
 
   .contenedor .oval {
@@ -4863,14 +4862,14 @@ tbody tr td a:hover {
   }
 
   .contenedor .mayus {
-    font-size: 35px;
+    font-size: 41px;
   }
 
   .contenedor .pregunts {
     width: 500px;
     height: 44px;
     font-size: 40px;
-    font-weight: 900;
+    font-weight: 700;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.1;
@@ -4919,7 +4918,7 @@ tbody tr td a:hover {
     width: 14px;
     height: 20px;
     font-size: 17px;
-    font-weight: 900;
+    font-weight: 700;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.25;
@@ -4928,7 +4927,7 @@ tbody tr td a:hover {
     color: #03cd83;
     vertical-align: middle;
     top: 10px;
-
+    right: 10px;
   }
 
   .contenedor .bjar {
@@ -5049,7 +5048,7 @@ tbody tr td a:hover {
     height: 43px;
     border-radius: 6px;
     background-color: #fa0236;
-    margin-top: 195px;
+    margin-top: 200px;
     left: -188px;
     position: absolute;
     text-align: center;
@@ -5061,7 +5060,7 @@ tbody tr td a:hover {
     width: 47px;
     height: 20px;
     font-size: 17px;
-    font-weight: 900;
+    font-weight: 700;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.25;
@@ -5069,6 +5068,7 @@ tbody tr td a:hover {
     text-align: center;
     color: #ffffff;
     vertical-align: middle;
+    top: -100px;
   }
 
   .contenedor .log {
@@ -5134,8 +5134,8 @@ tbody tr td a:hover {
   }
 
   .contenedor .menu a {
-    padding: 50px;
-    font-size: 14px;
+    padding: 70px;
+    font-size: 15px;
   }
 
   .contenedor .Links {
