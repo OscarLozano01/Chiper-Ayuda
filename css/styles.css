@@ -1364,7 +1364,7 @@ tbody tr td a:hover {
     border-width: 3px 3px 3px;
     border-style: dotted;
     border-radius: 100px;
-    margin-top: 80px;
+    margin-top: 210px;
     left: 30px;
   }
 
@@ -1880,6 +1880,12 @@ tbody tr td a:hover {
 
   }
 
+  .contenedor .nuevotop{
+    position: absolute;
+    left: 27px;
+    margin-top: -475px;    
+  }
+
   .contenedor .letra {
     width: 110px;
     height: 11px;
@@ -2160,7 +2166,7 @@ tbody tr td a:hover {
     border-width: 3px 3px 3px;
     border-style: dotted;
     border-radius: 100px;
-    margin-top: 80px;
+    margin-top: 500px;
     left: 30px;
   }
 
@@ -2233,7 +2239,7 @@ tbody tr td a:hover {
   .contenedor .tablet {
     display: inline-block;
     position: absolute;
-    top: 410px;
+    top: 460px;
     width: 350px;
     height: 550px;
     right: 0px;
@@ -2680,6 +2686,12 @@ tbody tr td a:hover {
 
   }
 
+  .contenedor .nuevotop{
+    position: absolute;
+    left: 27px;
+    margin-top: -450px;
+  }
+
   .contenedor .letra {
     width: 110px;
     height: 11px;
@@ -2964,6 +2976,7 @@ tbody tr td a:hover {
   }
 
   .contenedor .oval {
+    display: none;
     position: absolute;
     width: 80px;
     height: 80px;
@@ -2975,7 +2988,7 @@ tbody tr td a:hover {
     left: 60px;
   }
 
-  .contenedor .Oval {
+  .contenedor .Oval {      
     width: 40px;
     height: 40px;
     box-shadow: 0 6px 40px 0 rgba(255, 1, 54, 0.16);
@@ -2986,7 +2999,7 @@ tbody tr td a:hover {
     margin-top: 18px;
   }
 
-  .contenedor .-Icon-olor {
+  .contenedor .-Icon-olor {    
     width: 14px;
     height: 7px;
     object-fit: contain;
@@ -3045,7 +3058,7 @@ tbody tr td a:hover {
   .contenedor .tablet {
     display: inline-block;
     position: absolute;
-    top: 410px;
+    top: 450px;
     width: 350px;
     height: 650px;
     right: 0px;
@@ -3495,6 +3508,12 @@ tbody tr td a:hover {
 
   }
 
+  .contenedor .nuevotop{    
+    position: absolute;
+    left: 60px;
+    margin-top: -430px;
+  }
+
   .contenedor .letra {
     width: 110px;
     height: 11px;
@@ -3785,8 +3804,8 @@ tbody tr td a:hover {
     border-width: 3px 3px 3px;
     border-style: dotted;
     border-radius: 100px;
-    margin-top: 160px;
-    left: 60px;
+    margin-top: -80px;
+    left: 1150px;
   }
 
   .contenedor .Oval {
@@ -3871,9 +3890,9 @@ tbody tr td a:hover {
   .contenedor .tablet {
     display: inline-block;
     position: absolute;
-    top: 410px;
-    width: 430px;
-    height: 670px;
+    top: 440px;
+    width: 410px;
+    height: 650px;
     right: 0px;
   }
 
@@ -4318,7 +4337,12 @@ tbody tr td a:hover {
     font-style: normal;
     line-height: normal;
     letter-spacing: normal;
+  }
 
+  .contenedor .nuevotop{
+    position: absolute;
+    left: 60px;
+    margin-top: -430px;
   }
 
   .contenedor .letra {
@@ -4714,7 +4738,7 @@ tbody tr td a:hover {
     font-size: 45px;
     line-height: 1.07;
     letter-spacing: -3px;    
-    top: 1500px;    
+    top: 1570px;    
   }
 
   .contenedor .cuadro {
@@ -5148,6 +5172,12 @@ tbody tr td a:hover {
     line-height: normal;
     letter-spacing: normal;
 
+  }
+
+  .contenedor .nuevotop{
+    position: absolute;
+    left: 140px;
+    margin-top: -100px;
   }
 
   .contenedor .letra {
