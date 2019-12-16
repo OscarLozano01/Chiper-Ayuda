@@ -5,9 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="css/styles.css" rel="stylesheet" type="text/css" />
-  <link href="css/acordeon.css" rel="stylesheet" type="text/css" />
-  <link rel="icon" href="img/ico.ico">
+  <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+  <link href="css/acordeon.css" rel="stylesheet" type="text/css"/>
+  <link href="css/acorde.css" rel="stylesheet" type="text/css"/>
+  <link rel="icon" href="img/ico.ico">  
   <title>Chiper Ayuda</title>
   <script languaje="Javascript">
     document.write('<style type="text/css">div.cp_oculta{display: none;}</style>');
@@ -47,12 +48,7 @@
       <div class="base">
         <!-- imagen con punticos -->
         <img src="img/shape.png" class="Shape">
-        <img src="img/fondodim.png" class="dimension2">
-        <div class="oval">
-          <div class="Oval">
-            <a href="#bajo"><img src="img/icon-olor.svg" class="-Icon-olor"></a>
-          </div>
-        </div>
+        <img src="img/fondodim.png" class="dimension2"> 
         <div class="Imagen">
           <!-- imagen señora con asesor -->
           <img src="img/imagen.png" class="Imagen">
@@ -60,6 +56,11 @@
         <div class="Imagen2">
           <!-- imagen señora con asesor -->
           <img src="img/can.png" alt="" class="Imagen2">
+        </div>
+        <div class="oval">
+          <div class="Oval">
+            <a href="#bajo"><img src="img/icon-olor.svg" class="-Icon-olor"></a>
+          </div>
         </div>
         <div class="logo">
           <!-- imagen logo centro ayuda -->
@@ -135,248 +136,102 @@
               style="color: #ff0136;"><b>frecuentes.</b></span>
           </div>
         </div>
-        <div class="Rectangle">
-          <div id="accesos">
-            <ul>
-              <li>
-                <input type="checkbox" checked>
-                <i class="chevron"></i>
-                <h2>Acerca de Chiper</h2>
-                <div class="contAcordeon">
-                  <input type="checkbox" checked>
-                  <h2>-Que es Chiper?</h2>
-                  <div>
-                    <p>Chiper es la compañía que impulsa el crecimiento de los empresarios minoristas en
-                      latinoamérica.</p>
-                  </div>
-                </div>
-                <div class="contAcordeon">
-                  <input type="checkbox" checked>
-                  <h2>-Nuestra Propuesta de Valor</h2>
-                  <div>
-                    <p>Nuestra propuesta de valor es ayudar a los negocios tradicionales de consumo
-                      masivo a
-                      vender hasta dos veces más, mediante frecuencias diarias de pedidos y
-                      transformando
-                      físicamente sus puntos de venta.</p>
-                  </div>
-                </div>
-                <div class="contAcordeon">
-                  <input type="checkbox" checked>
-                  <h2>-Ventajas con Chiper</h2>
-                  <div>
-                    <p>Además Chiper le agrega valor a tu negocio por medio de 5 ventajas competitivas:
-                      <br>
-                      1. TRANSFORMACIÓN: Transforma tu negocio e incrementa ventas. <br>
-                      2. ENTREGA DE PEDIDOS EN 24 HORAS: En menos de 24 horas para que nunca estés
-                      desabastecido.<br>
-                      3. CUPO ROTATIVO: Para que puedas tener mayor capacidad de compra de surtido.
-                      <br>
-                      4. TECNOLOGÍA: Para que manejes tu negocio con mejor información para ser más
-                      eficiente y rentable. <br>
-                      5. ACADEMIA CHIPER: Aprende a manejar tu negocio, a aumentar tus ventas y a
-                      tomar
-                      decisiones inteligentes capacitandote con la academia Chiper.
-                    </p>
-                  </div>
-                </div>
-                <div class="contAcordeon">
-                  <input type="checkbox" checked>
-                  <h2>-En qué ciudades está Chiper?</h2>
-                  <div>
-                    <p>El objetivo de Chiper es llegar a todos los rincones de Colombia, pero por el
+        <div class="tablet">
+          <!-- imagen señora con asesor -->
+          <img src="img/tablet.png" alt="" class="tablet">
+        </div>
+        <div class="nuevotop">
+
+        
+        <div class="acordeon">        
+          <div class="acordeon__item">
+              <input type="radio" name="acordeon" id="item1">
+              <label for="item1" class="acordeon__titulo">Acerca de Chiper</label>  
+              <div class="acordeon__contenido">
+                  <input type="radio" name="acrdeon" id="item2">
+                  <label for="item2" class="acordeon__titul">-Que es Chiper?</label>
+                  <p class="acordeon__contenid">Chiper es la compañía que impulsa el crecimiento de los empresarios minoristas en latinoamérica.</p>    
+              </div>                        
+              <div class="acordeon__contenido">
+                  <input type="radio" name="acrdeon" id="item5">
+                  <label for="item5" class="acordeon__titul">-En qué ciudades está Chiper?</label>
+                  <p class="acordeon__contenid">El objetivo de Chiper es llegar a todos los rincones de Colombia, pero por el
                       momento
-                      nos encontramos en las ciudades de Bogotá, Medellín, Cali y CDMX. <br><br>
-                      ¡Próximamente llegaremos a tu ciudad!</p>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <input type="checkbox" checked>
-                <i class="chevron"></i>
-                <h2>Pedidos</h2>
-                <div class="contAcordeon">
-                  <input type="checkbox" checked>
-                  <h2>-Cómo hago un pedido?</h2>
-                  <div>
-                    <p>1.Ubícate en la página principal de la web <br>
-                      2.Haz clic en el botón (PEDIR) que está ubicado en la parte izquierda superior
-                      <br>
-                      3.En la parte superior central podrá ver todas nuestras (CATEGORÍAS) <br>
-                      4. Selecciona la que te interesa para agregar a tu pedido los productos que
-                      desees <br>
-                      5.Selecciona el producto que estés interesado y haz clic en (AGREGAR) <br>
-                      6. Luego selecciona las cantidades que necesites <br>
-                      7.Debes repetir el proceso para todas las referencias que desees <br>
-                      8.Cuando finalices de seleccionar las cantidades de los productos haz clic en el
-                      (CARRITO DE COMPRAS) que está ubicada en la parte superior derecha. <br>
-                      9. Aqui podras observar el detalle de tu pedido. Haz clic en (ACEPTAR) <br>
-                      10.Para finalizar el pedido da clic en el botón (CONFIRMAR PEDIDO). <br>
-
-                      Anímate y pide ya!
-                      https://empresarios.chiper.co/pedir/</p>
-                  </div>
-                </div>
-                <div class="contAcordeon">
-                  <input type="checkbox" checked>
-                  <h2>-Cuáles son los tiempos de entrega?</h2>
-                  <div>
-                    <p>Estamos entregando pedidos en menos de 24 horas. Si realizas tu pedido antes de
-                      las 11:00 am lo recibirás el mismo dia. <br>
-                      No pierdas estos beneficios
-                    </p>
-                  </div>
-                </div>
-                <div class="contAcordeon">
-                  <input type="checkbox" checked>
-                  <h2>-Cuál es el estado de mi pedido?</h2>
-                  <div>
-                    <p>Puedes ver el status de tu pedido en la parte izquierda de la pantalla principal,
+                      nos encontramos en las ciudades de Bogotá, Medellín, Cali y CDMX. <br>
+                      ¡Próximamente llegaremos a tu ciudad!</p>    
+              </div>                      
+          </div>
+  
+          <div class="acordeon__item">
+              <input type="radio" name="acordeon" id="item6">
+              <label for="item6" class="acordeon__titulo">Pedidos</label>                 
+              <div class="acordeon__contenido">
+                  <input type="radio" name="acrdeon" id="item8">
+                  <label for="item8" class="acordeon__titul">-Cuáles son los tiempos de entrega?</label>
+                  <p class="acordeon__contenid">Estamos entregando pedidos en menos de 24 horas. Si realizas tu pedido antes de
+                      las 11:00 am lo recibirás el mismo dia. No pierdas estos beneficios!</p>    
+              </div>
+              <div class="acordeon__contenido">
+                  <input type="radio" name="acrdeon" id="item9">
+                  <label for="item9" class="acordeon__titul">-Cuál es el estado de mi pedido?</label>
+                  <p class="acordeon__contenid">Puedes ver el status de tu pedido en la parte izquierda de la pantalla principal,
                       dando clic en la opción de COMPRAS. Ahi podras encontar el No. de Pedido, fecha
-                      de entrega, El valor a pagar, el estado de tu pedido.</p>
-                  </div>
-                </div>
-                <div class="contAcordeon">
-                  <input type="checkbox" checked>
-                  <h2>-Qué son los recomendables/imperdonables?</h2>
-                  <div>
-                    <p>Son unas distintas lista de productos de alta rotación que las tiendas de barrios
-                      si o si necesitan, lleva lo que tus clientes necesitan.
-                      Los puedes encontrar dando clic en la pantalla principal en el botón PEDIR,
-                      ubicado en la parte izquierda superior.
-                      Debajo del buscador encontrarás estos grupos de productos de alta rotación. <br>
-
-                      No te los pierdas , pidelos ya
-
-                      https://empresarios.chiper.co/pedir/ <br>
-
-                      **VIDEO DE YOUTUBE
-                    </p>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <input type="checkbox" checked>
-                <i class="chevron"></i>
-                <h2>Cartera</h2>
-                <div class="contAcordeon">
-                  <input type="checkbox" checked>
-                  <h2>-Cuál es mi referencia de pago?</h2>
-                  <div>
-                    <p>La referencia de pago la podrás encontrar en la página principal , parte superior
-                      derecha
-                      https://empresarios.chiper.co/negocio/
-                    </p>
-                  </div>
-                </div>
-                <div class="contAcordeon">
-                  <input type="checkbox" checked>
-                  <h2>-Dónde puedo realizar mis pagos?</h2>
-                  <div>
-                    <p>1. Banco Davivienda : i). Recaudo en Davivienda 1296441 + Ref. pago ii).
-                      Consignacion Davivienda 005070375877 + Ref. pago <br>
-                      2. Puntos Baloto 950154 + Ref. de Pago <br>
-                      3. Puntos Bancolombia 81728 + (000000+Ref. de Pago) Tu código único de
-                      referencia + La cantidad de ceros necesarios para completar 16 dígitos. <br>
-                      4. Puntos Efecty 111591 + Ref. de Pago <br>
-
-                      Puedes consultar mas informacion en nuestra pagina web academia.chiper.co/#pagos
-                    </p>
-                  </div>
-                </div>
-                <div class="contAcordeon">
-                  <input type="checkbox" checked>
-                  <h2>-Dónde puedo ver el estado de mi deuda?</h2>
-                  <div>
-                    <p>Puedes ver el status de tu cartera en la parte izquierda inferior de la pantalla
-                      principal, dando click en la opción de CRÉDITO. Ahi podras encontrar toda la
-                      información correspondiente a fecha de pagos, monto a cancelar, etc.. <br>
-                      https://empresarios.chiper.co/credito/
-                    </p>
-                  </div>
-                </div>
-                <div class="contAcordeon">
-                  <input type="checkbox" checked>
-                  <h2>-En cuanto tiempo se ve reflejado mi pago?</h2>
-                  <div>
-                    <p>Después de realizado el pago tu cuenta se verá reflejada antes de 24 horas
-                      hábiles.
-                    </p>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <input type="checkbox" checked>
-                <i class="chevron"></i>
-                <h2>Soporte técnico</h2>
-                <div class="contAcordeon">
-                  <input type="checkbox" checked>
-                  <h2>-¿Cómo se crea un producto nuevo?</h2>
-                  <div>
-                    <p>1.Ubícate en la página principal de la web <br>
-                      2.Haz clic en el botón (INVENTARIO) que está ubicado en la parte izquierda <br>
-                      3. Haz clic en el botón (CREAR) en la parte superior derecha <br>
-                      4. Diligencia todos los campos necesarios. <br>
-                      Si tu producto tiene codigo de barras diligenciar el EAN <br>
-                      Si tu producto NO tiene codigo de barras , generar EAN <br>
-                      Hazlo ya! <br>
-                      https://empresarios.chiper.co/inventario/
-                    </p>
-                  </div>
-                </div>
-                <div class="contAcordeon">
-                  <input type="checkbox" checked>
-                  <h2>-Cómo puedo editar el inventario?</h2>
-                  <div>
-                    <p>1.Ubícate en la página principal de la web <br>
-                      2.Haz clic en el botón (INVENTARIO) que está ubicado en la parte izquierda <br>
-                      3. En el (BUSCADOR) ubicado en la parte superior central diligenciar la
-                      descripción del producto <br>
-                      4. Editar los campos necesarios <br>
-                      5. Presiona ENTER para que el sistema guarde los cambios. <br>
-                      https://empresarios.chiper.co/inventario/</p>
-                  </div>
-                </div>
-                <div class="contAcordeon">
-                  <input type="checkbox" checked>
-                  <h2>-Cómo puedo borrar una referencia?</h2>
-                  <div>
-                    <p>1.Ubícate en la página principal de la web <br>
+                      de entrega, El valor a pagar, el estado de tu pedido.</p>    
+              </div>                                  
+          </div> 
+  
+          <div class="acordeon__item">
+              <input type="radio" name="acordeon" id="item11">
+              <label for="item11" class="acordeon__titulo">Cartera</label>  
+              <div class="acordeon__contenido">
+                  <input type="radio" name="acrdeon" id="item12">
+                  <label for="item12" class="acordeon__titul">-Cuál es mi referencia de pago?</label>
+                  <p class="acordeon__contenid">La referencia de pago la podrás encontrar en la página principal, parte superior
+                      derecha https://empresarios.chiper.co/negocio/</p>    
+              </div>               
+              <div class="acordeon__contenido">
+                  <input type="radio" name="acrdeon" id="item15">
+                  <label for="item15" class="acordeon__titul">-En cuanto tiempo se ve reflejado mi pago?</label>
+                  <p class="acordeon__contenid">Después de realizado el pago tu cuenta se verá reflejada antes de 24 horas hábiles.</p>    
+              </div>                      
+          </div> 
+          <div class="acordeon__item">
+              <input type="radio" name="acordeon" id="item16">
+              <label for="item16" class="acordeon__titulo">Soporte Técnico</label>                               
+              <div class="acordeon__contenido">
+                  <input type="radio" name="acrdeon" id="item19">
+                  <label for="item19" class="acordeon__titul">-Cómo puedo borrar una referencia?</label>
+                  <p class="acordeon__contenid">1.Ubícate en la página principal de la web <br>
                       2.Haz clic en el botón (INVENTARIO) que está ubicado en la parte izquierda <br>
                       3. Cuando ubiques el producto haz clic en el botón (DESHABILITAR) que está
-                      ubicado en la parte derecha
-                    </p>
-                  </div>
-                </div>
-                <div class="contAcordeon">
-                  <input type="checkbox" checked>
-                  <h2>-Dónde puedo ver el margen de ganancia?</h2>
-                  <div>
-                    <p>1.Ubícate en la página principal de la web <br>
+                      ubicado en la parte derecha</p>    
+              </div>
+              <div class="acordeon__contenido">
+                  <input type="radio" name="acrdeon" id="item20">
+                  <label for="item20" class="acordeon__titul">-Dónde puedo ver el margen de ganancia?</label>
+                  <p class="acordeon__contenid">1.Ubícate en la página principal de la web <br>
                       2.Haz clic en el botón (INVENTARIO) que está ubicado en la parte izquierda <br>
-                      3. Ahi podra ver toda la información acerca de los productos.
-                    </p>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <input type="checkbox" checked>
-                <i class="chevron"></i>
-                <h2>Facturación</h2>
-                <div class="contAcordeon">
-                  <input type="checkbox" checked>
-                  <h2>-Test</h2>
-                  <div>
-                    <p>Por ello les recomendamos que pongan como destino el Hotel Casa Camila (Fitoria
-                      de
-                      Arriba) pasando por las calles <span class="calle">C/ Evaristo Valle</span> y
-                      <span class="calle">C/Eugenio Tamayo</span>.</p>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
+                      3. Ahi podra ver toda la información acerca de los productos.</p>    
+              </div>                      
+          </div> 
+          <div class="acordeon__item">
+              <input type="radio" name="acordeon" id="item21">
+              <label for="item21" class="acordeon__titulo">Facturación</label>  
+              <div class="acordeon__contenido">
+                  <input type="radio" name="acrdeon" id="item22">
+                  <label for="item22" class="acordeon__titul">Qué es una Nota Crédito?</label>
+                  <p class="acordeon__contenid">Es una devolución de dinero de manera virtual que se aplica como descuento para una próxima factura.</p>    
+              </div>
+  
+              <div class="acordeon__contenido">
+                  <input type="radio" name="acrdeon" id="item23">
+                  <label for="item23" class="acordeon__titul">Cómo puedo descargar mi factura?</label>
+                  <p class="acordeon__contenid">En la pantalla principal debajo del módulo Promedios Diarios se encuentra el modulo TIENES UN PEDIDO, en la parte central haz clic en DESCARGAR Factura.</p>    
+              </div>                                   
+          </div> 
+      </div>
+    </div>
+
       </div>
     </section>
     <section class="header">
@@ -389,10 +244,7 @@
             <!-- imagen señora con asesor -->
             <img src="img/pieza.png" alt="" class="tablets">
           </div>
-        <div class="tablet">
-          <!-- imagen señora con asesor -->
-          <img src="img/tablet.png" alt="" class="tablet">
-        </div>
+
         <div class="titu2">
           <span style="color: #000000;">Opiniones de </span><span style="color: #000000;"><b>nuestros</b></span><span
             style="color: #ff0136;"><b>&nbspclientes.</b></span>
@@ -540,13 +392,7 @@
         </ul>
       </div>
     </section>
-  </div>
-  <!-- Start of chiperhelp Zendesk Widget script -->
-  <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=f94d1793-99e7-4210-adec-8f97befbeb45"></script>
-  <!-- End of chiperhelp Zendesk Widget script -->
-  <script type="text/javascript" src="//static.zdassets.com/hc/assets/locales/en-us-53b1620b0b96ae4795a472a1222f344d.js"></script>
-  <script src="//static.zdassets.com/hc/assets/hc_enduser-2fa5151bdb4eb789430043eff759d35c.js"></script>
-  <!-- Start of chiperhelp Zendesk Widget script -->
+  </div> 
 </body>
 
 </html>
