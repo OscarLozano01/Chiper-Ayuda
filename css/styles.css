@@ -1821,11 +1821,11 @@ tbody tr td a:hover {
     display: block;
     margin: 60px auto;
     top: -130px;
-    left: 490px;
+    left: 406px;
   }
 
   .contenedor .frame {
-    width: 280px;
+    width: 250px;
     height: 400px;
     border: 1px solid #2B303E;
     border-radius: 10px;
