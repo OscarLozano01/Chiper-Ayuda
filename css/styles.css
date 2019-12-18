@@ -3459,6 +3459,21 @@ tbody tr td a:hover {
     vertical-align: middle;
   }
 
+  .contenedor .chatbot {
+    position: absolute;
+    display: block;
+    margin: 60px auto;
+    top: -132px;
+    left: 686px;
+  }
+
+  .contenedor .frame {
+    width: 350px;
+    height: 410px;
+    border: 1px solid #2B303E;
+    border-radius: 10px;
+  } 
+
   .contenedor .log {
     position: absolute;
     top: 20px;
