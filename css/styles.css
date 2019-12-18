@@ -17,6 +17,21 @@ body {
   height: 863px;
 }
 
+.chatbot {
+  position: absolute;
+  display: block;
+  margin: 60px auto;
+  top: -150px;
+  left: 869px;
+}
+
+.frame {
+  width: 350px;
+  height: 500px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
 .dimension2 {
   display: none;
   position: absolute;
@@ -1800,6 +1815,21 @@ tbody tr td a:hover {
     color: #ffffff;
     vertical-align: middle;
   }
+
+  .contenedor .chatbot {
+    position: absolute;
+    display: block;
+    margin: 60px auto;
+    top: -130px;
+    left: 490px;
+  }
+
+  .contenedor .frame {
+    width: 280px;
+    height: 400px;
+    border: 1px solid #2B303E;
+    border-radius: 10px;
+  } 
 
   .contenedor .log {
     position: absolute;
@@ -4970,6 +5000,11 @@ tbody tr td a:hover {
     top: 135px;
   }
 
+  .contenedor .llamno {    
+    position: absolute;
+    top: 135px;
+  }
+
   .contenedor .lmnos {
     width: 525px;
     height: 168px;
@@ -5073,7 +5108,7 @@ tbody tr td a:hover {
     border-radius: 6px;
     background-color: #fa0236;
     margin-top: 200px;
-    left: -188px;
+    left: -70px;
     position: absolute;
     text-align: center;
     vertical-align: middle;
@@ -5094,6 +5129,21 @@ tbody tr td a:hover {
     vertical-align: middle;
     top: -100px;
   }
+
+  .contenedor .chatbot {
+    position: absolute;
+    display: block;
+    margin: 60px auto;
+    top: -150px;
+    left: 869px;
+  }
+
+  .contenedor .frame {
+    width: 350px;
+    height: 500px;
+    border: 1px solid #2B303E;
+    border-radius: 10px;
+  }  
 
   .contenedor .log {
     position: absolute;
